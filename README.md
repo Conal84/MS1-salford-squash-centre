@@ -49,14 +49,8 @@ Website key features will include the following;
     * Opening times
 
 * Play Section - provides detailed information on booking and playing
-    * Timetables
-    * How to Pay
     * How to sign up for membership
-
-* Events Section - upcoming centre events
-    * Junior players
-    * Senior players
-    * Elite players
+    * How to access training
 
 * Sign In / Up Section
 
@@ -66,28 +60,29 @@ new customers. These quotations also give potential new customers a sense
 of the professionalism of the squash centre.
 
 ### Structure
-<!--Table to represent nav bar header-->
-|Home|About         |Play           |Events   |Sign In / Up   |
-|----|--------------|---------------|---------|---------------|
-|    |Courts        |Timetable      |Junior   |First name     |
-|    |Facilities    |Pay as U Play  |Senior   |Last name      |
-|    |Parking       |Sign In/Up     |Elite    |email          |
-|    |Membership    |               |         |password       |
-|    |Fees          |               |         |               |
-|    |Opening Times |               |         |               |
-<!--Section hero image-->
-![Hero image](assets/images/squash-hero.png)
-___
-<!--Section coach quotes-->
-* Coach 1 quotation
-* Coach 2 quotation
-___
-<!--Footer-->
-* Contact details
-* Social
-    * [Facebook](https://www.facebook.com)
-    * [Twitter](https://www.twitter.com)
-    * [Instagram](https://www.instagram.com)
-    * [Youtube](https://www.youtube.com)
+I want to keep the site as minimalist and clutter free as possible so that it is
+easy to use for the wide ranging demographic. Users should be able to sign up easily as such I will adhere to the 3 click rule of thumb.
+Information will be provided to users in a concise, straight forward manner. A common navbar and footer
+will be used throughout the design.
 
+Information will be grouped in 3 key areas;
+* About - providing general squash centre infromation to the user
+* Play - providing specific squash playing information
+* Sign Up / In - a page where users can enter their details
 
+### Skeleton
+[Balsamiq-wireframes](/assets/wireframes/Squash-Centre.bmpr)
+
+### Surface
+I want the colors used on the site to
+mimic the colors of a standard squash court which are white walls with red boundary lines.
+
+## Features to implement
+
+## Technologies used
+
+## Testing
+
+## Deployment
+
+## Credits
