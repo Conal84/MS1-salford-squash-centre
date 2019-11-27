@@ -2,9 +2,23 @@
 
 /*---Colors----*/
 
+/*---Colors---*/
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
-/*-----Header-----*/
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #DC7633;
+    border-color: #DC7633;
+}
+
+/*-----Navbar-----*/
 
 
 /*-----Hero-Section-----*/
