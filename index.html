@@ -27,7 +27,7 @@
 				<li class="nav-item mr-2"><a class="nav-link" href="facilities.html">Facilities</a></li>
 				<li class="nav-item mr-2"><a class="nav-link" href="play.html">Play</a></li>
 				<li class="nav-item mr-2">
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Launch demo modal</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Sign Up / In</button>
 				</li>
 			</ul>
 		</div>
@@ -38,23 +38,29 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+					<h5 class="modal-title" id="exampleModalLongTitle">Sign Up with us today</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
 				</div>
 				<div class="modal-body">
-					...
+					<form method="post">
+                        <input type="text" id="username" name="username" placeholder="Username" required><br>
+                        <input type="email" id="email" name="email" placeholder="Email"required><br>
+                        <input type="submit" class="btn btn-primary" value="Send">
+					</form>
 				</div>
+                <div class="member-login">
+                    <p>Already a member?<a href="#">Log in</a></p>
+                </div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!---/Navbar-->
-    
+
 	<!---Hero Section-->
 	<section>
 	</section>
