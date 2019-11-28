@@ -2,7 +2,7 @@
 
 /*---Colors----*/
 
-/*---Fonts---*/
+/*---Body---*/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -57,18 +57,20 @@ body {
 
 .hero--contact {
     height: 75vh;
-    background-color: #3a7ca5;
+    background-color: #2f6690;
     padding-left: 50px;
     padding-right: 0;
 }
 
 .hero--contact h3 {
     margin-top: 50px;
+    color: #d9dcd6;
     font-size: 16px;
     font: bold;
 }
 
 .hero--contact p {
+    color: #d9dcd6;
     font-size: 12px;
 }
 
@@ -109,7 +111,16 @@ body {
     border-color: #16425b;
 }
 
-.footer-container i {
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+    padding: 0 75px 0 75px;
+}
+
+.social-links i {
     color: #fff;
     font-size: 30px;
     margin-top: 13px;
