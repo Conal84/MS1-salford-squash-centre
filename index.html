@@ -14,69 +14,55 @@
 
 <body>
 	<!---Navbar--->
-	<nav class="navbar nav--style navbar-expand-md fixed-top">
-		<a class="navbar-brand" href="index.html">Squash Centre Salford</a>
+	<div class="container-fluid nav-container">
+		<nav class="navbar fixed-top nav--styl navbar-dark navbar-expand-md">
+			<a class="navbar-brand" href="index.html">Squash Centre Salford</a>
 
-		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-		<div class="collapse navbar-collapse" id="navbarMenu">
-			<ul class="navbar-nav ml-auto">
-				<li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-				<li class="nav-item mr-2"><a class="nav-link" href="facilities.html">Facilities</a></li>
-				<li class="nav-item mr-2"><a class="nav-link" href="play.html">Play</a></li>
-				<li class="nav-item mr-2">
-					<button type="button" class="btn btn--cta btn-sm" data-toggle="modal" data-target="#exampleModalLong">Sign Up / In</button>
-				</li>
-			</ul>
-		</div>
-	</nav>
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav ml-auto">
+					<li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="facilities.html">Facilities</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="play.html">Play</a></li>
+					<li class="nav-item mr-2">
+						<button type="button" class="btn btn--cta btn-sm" data-toggle="modal" data-target="#exampleModalLong">Sign Up / In</button>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 	<!---/Navbar--->
 
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-		aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Sign Up with us today</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-				</div>
-				<div class="modal-body">
-					<form method="post">
-						<input type="text" id="username" name="username" placeholder="Username" required><br>
-						<input type="email" id="email" name="email" placeholder="Email"required><br>
-						<input type="submit" class="btn btn--cta btn-sm" value="Send">
-					</form>
-				</div>
-				<div class="member-login">
-					<p>Already a member?<a href="#">Log in</a></p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
+	<!---Hero Section--->
+	<div class="container-fluid hero-container">
+		<div class="row">
+			<div class="col-4 hero--contact">
+				<h3>Find Us</h3>
+				<p>Squash Centre Salford<br>Chapel Street<br>Manchester<br>M3 6JZ<br></p>
+					<h3>Opening Times</h3>
+					<p>Mon to Fri 7am - 9pm<br>Sat and Sun 8am - 3pm<br></p>
+						<h3>Contact Us</h3>
+						<p>07000 111222<br>salfordsquash@gmail.com<br></p>
+			</div>
+			<div class="col-8 hero--col">
+				<div class="hero--image"></div>
 			</div>
 		</div>
 	</div>
-	<!---/Modal--->
-
-	<!---Hero Section--->
-	<section>
-	</section>
 	<!---/Hero Section--->
 
 	<!---Quotes Section--->
 	<section>
-		<div class="container-fluid">
+		<div class="container-fluid quotes-container">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12 quote--heading">
 					<h2>Our Coaches</h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row media--row">
 				<div class="col-12 col-md-6">
 					<div class="media">
 						<div class="media-body">
@@ -110,24 +96,69 @@
 
 	<!---Footer--->
 	<footer>
-		<div class="container">
+		<div class="container-fluid footer-container">
 			<div class="row">
-				<div class="col-3">
-					<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-				</div>
-				<div class="col-3">
-					<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-				</div>
-				<div class="col-3">
-					<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-				</div>
-				<div class="col-3">
-					<a href="https://www.facebook.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+				<div class="col-12">
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com"
+								target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>
+								<span class="sr-only">Facebook link</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.twitter.com"
+								target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+								<span class="sr-only">Twitter link</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.instagram.com"
+								target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram link</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com"
+								target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i>
+								<span class="sr-only">Youtube link</span>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</footer>
 	<!---Footer--->
+
+	<!-- Modal -->
+	<div class="modal fade modal-container" id="exampleModalLong" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Sign Up today</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+				</div>
+				<div class="modal-body">
+					<form method="post">
+						<input type="text" id="username" name="username" placeholder="Username" required><br>
+						<input type="email" id="email" name="email" placeholder="Email"required><br>
+						<input type="submit" class="btn btn--cta btn-sm" value="Send">
+					</form>
+				</div>
+				<div class="member-login">
+					<p>Already a member?<a href="#">Log in</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---/Modal--->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
