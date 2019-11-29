@@ -11,22 +11,19 @@ body {
 
 /* Buttons */
 
-.btn--cta {
+.btn-primary {
+    margin-top: 5px;
     font-weight: bold;
     border-radius: 20px;
     color: #fff;
-    background-color: #DC7633;
-    border-color: #DC7633;
+    background: #9fcc2e;
+    border: #9fcc2e;
 }
 
 /*-----Navbar-----*/
 
-.nav-container {
-    top: 0;
-    left: 0;
-    z-index: 1;
-    padding-left: 0;
-    padding-right: 0;
+.navbar {
+    padding: 8px 35px 8px 35px;
 }
 
 .nav--styl {
@@ -40,10 +37,36 @@ body {
     padding: 0;
 }
 
+.hero--row {
+    height: 75vh;
+}
+
+.hero--contact {
+    background-color: #2f6690;
+    padding: 0 50px 0 50px;
+    max-height: 75vh;
+}
+
+.hero--contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hero--contact h3 {
+    font-size: 14px;
+    margin-top: 30px;
+    color: #9fcc2e;
+}
+
+.hero--contact li {
+    font-size: 12px;
+    color: #fff;
+}
+
 .hero--image {
     height: 75vh;
     min-height: auto;
-    background: url("../images/blueblack1.jpg") no-repeat; 
+    background: url("../images/img3.jpg") no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,25 +76,6 @@ body {
 
 .hero--col {
     padding: 0;
-}
-
-.hero--contact {
-    height: 75vh;
-    background-color: #2f6690;
-    padding-left: 50px;
-    padding-right: 0;
-}
-
-.hero--contact h3 {
-    margin-top: 50px;
-    color: #d9dcd6;
-    font-size: 16px;
-    font: bold;
-}
-
-.hero--contact p {
-    color: #d9dcd6;
-    font-size: 12px;
 }
 
 .jumbotron {
@@ -117,7 +121,8 @@ body {
 
 .social-links li {
     display: inline;
-    padding: 0 75px 0 75px;
+    padding: 5%;
+    margin: 1%;
 }
 
 .social-links i {

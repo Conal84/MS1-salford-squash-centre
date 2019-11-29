@@ -15,7 +15,7 @@
 <body>
 	<!---Navbar--->
 	<div class="container-fluid nav-container">
-		<nav class="navbar fixed-top nav--styl navbar-dark navbar-expand-md">
+		<nav class="navbar fixed-top nav--styl navbar-dark navbar-expand-xl">
 			<a class="navbar-brand" href="index.html">Squash Centre Salford</a>
 
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
 					<li class="nav-item mr-2"><a class="nav-link" href="facilities.html">Facilities</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="play.html">Play</a></li>
 					<li class="nav-item mr-2">
-						<button type="button" class="btn btn--cta btn-sm" data-toggle="modal" data-target="#exampleModalLong">Sign Up / In</button>
+						<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong">Sign Up / In</button>
 					</li>
 				</ul>
 			</div>
@@ -37,21 +37,42 @@
 	<!---/Navbar--->
 
 	<!---Hero Section--->
-	<div class="container-fluid hero-container">
-		<div class="row">
-			<div class="col-4 hero--contact">
-				<h3>Find Us</h3>
-				<p>Squash Centre Salford<br>Chapel Street<br>Manchester<br>M3 6JZ<br></p>
-					<h3>Opening Times</h3>
-					<p>Mon to Fri 7am - 9pm<br>Sat and Sun 8am - 3pm<br></p>
-						<h3>Contact Us</h3>
-						<p>07000 111222<br>salfordsquash@gmail.com<br></p>
+	<section>
+		<div class="container-fluid hero-container">
+			<div class="row hero--row">
+				<div class="col-12 hero--col">
+					<div class="hero--image"></div>
+				</div>
 			</div>
-			<div class="col-8 hero--col">
-				<div class="hero--image"></div>
+			<div class="row contact--row">
+				<div class="col-12 hero--contact">
+					<div class="hero--findus">
+						<h3>Find Us</h3>
+						<ul>
+							<li>Squash Centre Salford</li>
+							<li>Chapel Street</li>
+							<li>Manchester</li>
+							<li>M3 6JZ</li>
+						</ul>
+					</div>
+					<div class="hero--opentimes">
+						<h3>Opening Times</h3>
+						<ul>
+							<li>Mon to Fri 7am - 9pm</li>
+							<li>Sat and Sun 8am - 3pm</li>
+						</ul>
+					</div>
+					<div class="hero--contactus">
+						<h3>Contact Us</h3>
+						<ul>
+							<li>07000 111222</li>
+							<li>salfordsquash@gmail.com</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 	<!---/Hero Section--->
 
 	<!---Quotes Section--->
@@ -89,7 +110,7 @@
 						</div>
 					</div>
 				</div>
-                <div class="col-12 col-md-4">
+				<div class="col-12 col-md-4">
 					<div class="media">
 						<div class="media-body">
 							<img src="assets/images/female-headshot.jpg" class="rounded-circle mr-3" height=100 width=100>
@@ -159,7 +180,7 @@
 					<form method="post">
 						<input type="text" id="username" name="username" placeholder="Username" required><br>
 						<input type="email" id="email" name="email" placeholder="Email"required><br>
-						<input type="submit" class="btn btn--cta btn-sm" value="Send">
+						<input type="submit" class="btn btn-primary btn-sm" value="Send">
 					</form>
 				</div>
 				<div class="member-login">
