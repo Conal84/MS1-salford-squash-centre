@@ -129,4 +129,11 @@ body {
     color: #fff;
     font-size: 30px;
     margin-top: 13px;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.social-links i:hover {
+    color: #9fcc2e;
+    transition-timing-function: ease-in-out;
 }
