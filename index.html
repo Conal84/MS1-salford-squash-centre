@@ -92,7 +92,7 @@
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, rerum modi eos
 									alias
 									beatae consectetur quaerat mollitia dicta repellendus nisi!</p>
-								<p>Joe Bloggs</p>
+								<p class="quotes--names">Joe Bloggs</p>
 							</blockquote>
 						</div>
 					</div>
@@ -105,7 +105,7 @@
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, rerum modi eos
 									alias
 									beatae consectetur quaerat mollitia dicta repellendus nisi!</p>
-								<p>Jane Bloggs</p>
+								<p class="quotes--names">Jane Bloggs</p>
 							</blockquote>
 						</div>
 					</div>
@@ -118,7 +118,7 @@
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, rerum modi eos
 									alias
 									beatae consectetur quaerat mollitia dicta repellendus nisi!</p>
-								<p>Jane Bloggs</p>
+								<p class="quotes--names">Jane Bloggs</p>
 							</blockquote>
 						</div>
 					</div>
@@ -179,15 +179,30 @@
 				<div class="modal-body">
 					<form>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="username" name="username" placeholder="Username" required><br>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email"required><br>
+                            <select class="custom-select">
+                                <option selected>Please choose your skill level</option>
+                                <option value="1">Junior</option>
+                                <option value="2">Adult</option>
+                                <option value="3">Elite</option>
+                            </select>
+                            <input type="text" class="form-control" id="fname" name="fname" placeholder="First name">
+                            <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                             <input type="submit" class="btn btn-primary btn-sm" value="Send">
                         </div>
 					</form>
-				</div>
-				<div class="member--login">
-					<p>Already a member?<a href="#"> Log in</a></p>
-				</div>
+			
+				    <div class="member--login">
+					    <p>Already a member? Log in below</p>
+				    </div>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                            <input type="submit" class="btn btn-primary btn-sm" value="Send">
+                        </div>
+					</form>
+                    </div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>

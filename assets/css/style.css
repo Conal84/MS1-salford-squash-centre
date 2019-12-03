@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,600,700,800|Oswald:400,500,600,700|Roboto:400,500,700,900&display=swap');
 
 /*---Colors----*/
 
@@ -13,6 +13,7 @@ body {
 
 .btn-primary {
     margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     border-radius: 20px;
     color: #fff;
@@ -53,20 +54,24 @@ body {
 }
 
 .hero--contact h3 {
-    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     margin-top: 30px;
     color: #9fcc2e;
 }
 
 .hero--contact li {
-    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     color: #fff;
 }
 
 .hero--image {
     height: 75vh;
     min-height: auto;
-    background: url("../images/img3.jpg") no-repeat; 
+    background: url("../images/img5.jpg") no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,7 +94,9 @@ body {
     margin-top: 0;
 }
 
-.quote--heading {
+.quote--heading h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     margin-top: 20px;
     text-align: center;
 }
@@ -99,8 +106,16 @@ body {
 }
 
 .blockquote {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.quotes--names {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 /*---Modal---*/
@@ -121,10 +136,8 @@ body {
 }
 
 .member--login {
-    padding: 1rem;
+    padding: 0;
 }
-
-
 
 /*-----Footer-----*/
 .footer-container {
