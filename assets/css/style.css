@@ -77,6 +77,16 @@ body {
     text-decoration: underline;
 }
 
+.triangle {
+    height: 0;
+    width: 0;
+    border-left: 100px solid #ef8a17;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+    z-index: 20;
+}
+
 /*---Contact Section---*/
 .contact-container {
     background-color: #1d3461;
