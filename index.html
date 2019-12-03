@@ -41,12 +41,24 @@
 		<div class="container-fluid hero-container">
 			<div class="row hero--row">
 				<div class="col-12 hero--col">
-					<div class="hero--image"></div>
+					<section class="jumbotron d-none d-lg-block">
+                        <h2>Sign Up Today</h2>
+                        <p>No Contract Required!</p>
+                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong">Sign Up / In</button>
+                    </section>
 				</div>
 			</div>
+		</div>
+	</section>
+	<!---/Hero Section--->
+
+	<!---Contact Section--->
+	<section>
+		<div class="container-fluid contact-container">
 			<div class="row contact--row">
-				<div class="col-12 hero--contact">
-					<div class="hero--findus">
+				<div class="col-12 contact--col">
+					<div class="contact--findus">
+						<div class="contact--image"></div>
 						<h3>Find Us</h3>
 						<ul>
 							<li>Squash Centre Salford</li>
@@ -55,14 +67,14 @@
 							<li>M3 6JZ</li>
 						</ul>
 					</div>
-					<div class="hero--opentimes">
+					<div class="contact--opentimes">
 						<h3>Opening Times</h3>
 						<ul>
 							<li>Mon to Fri 7am - 9pm</li>
 							<li>Sat and Sun 8am - 3pm</li>
 						</ul>
 					</div>
-					<div class="hero--contactus">
+					<div class="contact--contactus">
 						<h3>Contact Us</h3>
 						<ul>
 							<li>07000 111222</li>
@@ -73,7 +85,7 @@
 			</div>
 		</div>
 	</section>
-	<!---/Hero Section--->
+	<!---/Contact Section--->
 
 	<!---Quotes Section--->
 	<section>
@@ -178,31 +190,31 @@
 				</div>
 				<div class="modal-body">
 					<form>
-                        <div class="form-group">
-                            <select class="custom-select">
+						<div class="form-group">
+							<select class="custom-select">
                                 <option selected>Please choose your skill level</option>
                                 <option value="1">Junior</option>
                                 <option value="2">Adult</option>
                                 <option value="3">Elite</option>
                             </select>
-                            <input type="text" class="form-control" id="fname" name="fname" placeholder="First name">
-                            <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                            <input type="submit" class="btn btn-primary btn-sm" value="Send">
+							<input type="text" class="form-control" id="fname" name="fname" placeholder="First name">
+							<input type="text" class="form-control" id="lname" name="lname" placeholder="Last name">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+							<input type="submit" class="btn btn-primary btn-sm" value="Send">
                         </div>
 					</form>
-			
-				    <div class="member--login">
-					    <p>Already a member? Log in below</p>
-				    </div>
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="username" name="username" placeholder="Username">
-                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-                            <input type="submit" class="btn btn-primary btn-sm" value="Send">
+
+					<div class="member--login">
+						<p>Already a member? Log in below</p>
+					</div>
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" id="username" name="username" placeholder="Username">
+							<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+							<input type="submit" class="btn btn-primary btn-sm" value="Send">
                         </div>
 					</form>
-                    </div>
+				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>

@@ -42,33 +42,7 @@ body {
     height: 75vh;
 }
 
-.hero--contact {
-    background-color: #2f6690;
-    padding: 0 50px 0 50px;
-    max-height: 75vh;
-}
-
-.hero--contact ul {
-    list-style: none;
-    padding: 0;
-}
-
-.hero--contact h3 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 30px;
-    color: #9fcc2e;
-}
-
-.hero--contact li {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #fff;
-}
-
-.hero--image {
+.hero-container {
     height: 75vh;
     min-height: auto;
     background: url("../images/img5.jpg") no-repeat; 
@@ -84,8 +58,65 @@ body {
 }
 
 .jumbotron {
+    margin-left: 20px;
+    margin-top: 10px;
     text-align: center;
-    background-color:transparent;
+    background-color: #d9dcd6;
+    opacity: 0.7;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.jumbotron h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.jumbotron p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+/*---Contact Section---*/
+/*.contact--image {
+    height: 75vh;
+    min-height: auto;
+    background: url("../images/img9.jpg") no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+}*/
+
+.contact--col {
+    background-color: #2f6690;
+    padding: 0 50px 0 50px;
+    max-height: 75vh;
+}
+
+.contact--col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact--col h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #9fcc2e;
+}
+
+.contact--col li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
 }
 
 /*-----Quotes-Section-----*/
