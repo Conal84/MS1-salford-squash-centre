@@ -57,36 +57,7 @@ body {
 .carousel-inner > .carousel-item > img{
     margin:auto;
     width:100%;
-}
-
-.jumbotron {
-    text-align: center;
-    background-color: transparent;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    bottom: 0px;
-    left: 5px;
-    z-index: 20;
-    padding: 0;
-    margin: 0;
-}
-
-.jumbotron h2 {
-    font-family: 'Lato', sans-serif;
-    color: #ef8a17;
-    font-weight: 400;
-    font-size: 28px;
-}
-
-.jumbotron p {
-    font-family: 'Lato', sans-serif;
-    color: #ef8a17;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-decoration: underline;
+    height: 33vh;
 }
 
 /*---Contact Section---*/
@@ -140,7 +111,7 @@ body {
 
 .contact--container i {
     color: #fff;
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 15px;
 }
 
@@ -216,7 +187,7 @@ body {
 
 .social-links i {
     color: #fff;
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 13px;
     transition-property: color;
     transition-duration: 0.5s;
@@ -241,6 +212,7 @@ body {
 }
 
 /*----Media Queries----*/
+/*----IPad and above----*/
 @media screen and (min-width: 768px) {
     .contact--opentimes {
     text-align: center;
@@ -284,9 +256,49 @@ body {
     font-size: 18px;
 }
 
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    z-index: 20;
+    padding: 0;
+    margin: 0;
 }
 
+.jumbotron h2 {
+    font-family: 'Lato', sans-serif;
+    color: #ef8a17;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.jumbotron p {
+    font-family: 'Lato', sans-serif;
+    color: #ef8a17;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.contact--container i,
+.social-links i {
+    font-size: 30px;
+}
+
+}
+
+/*----Desktop and above----*/
 @media screen and (min-width: 1200px) {
+    .carousel-inner > .carousel-item > img{
+    height: 75vh;
+}
+
     .triangle-topright {
     width: 0;
     height: 0;
@@ -307,6 +319,36 @@ body {
     bottom: 0px;
     left: 0px;
     opacity: 0.3;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    z-index: 20;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron h2 {
+    font-family: 'Lato', sans-serif;
+    color: #ef8a17;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.jumbotron p {
+    font-family: 'Lato', sans-serif;
+    color: #ef8a17;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: underline;
 }
 
 }
