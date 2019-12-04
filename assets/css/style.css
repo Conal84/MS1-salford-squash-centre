@@ -54,37 +54,54 @@ body {
 
 .jumbotron {
     text-align: center;
-    background-color: rgba(229,229,229,0.5);
+    background-color: transparent;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    bottom: 10%;
-    left: 5%;
+    bottom: 0px;
+    left: 5px;
     z-index: 20;
+    padding: 0;
+    margin: 0;
 }
 
 .jumbotron h2 {
     font-family: 'Lato', sans-serif;
+    color: #fff;
     font-weight: 400;
     font-size: 28px;
 }
 
 .jumbotron p {
     font-family: 'Lato', sans-serif;
+    color: #fff;
     font-weight: 400;
     font-size: 18px;
+    letter-spacing: 1px;
     text-decoration: underline;
 }
 
-.triangle {
-    height: 0;
+.triangle-topright {
     width: 0;
-    border-left: 100px solid #ef8a17;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-top: 100px solid transparent;
-    z-index: 20;
+    height: 0;
+    border-top: 400px solid #e5e5e5;
+    border-left: 400px solid transparent;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0.3;
+}
+
+.triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid #e5e5e5;
+    border-right: 400px solid transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
 }
 
 /*---Contact Section---*/
@@ -180,12 +197,14 @@ body {
     margin-top: 10px;
     margin-bottom: 50px;
     font-size: 16px;
+    text-align: justify;
 }
 
 .quotes--names {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-style: italic;
+    margin: 4px;
 }
 
 /*-----Footer-----*/
