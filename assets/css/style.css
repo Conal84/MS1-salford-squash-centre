@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,600,700,800|Oswald:400,500,600,700|Roboto:400,500,700,900&display=swap');
 
 /*---Body---*/
-
 body {
     font-family: 'Open Sans', sans-serif;
     padding-top: 56px;
 }
 
 /* Buttons */
-
 .btn-primary {
     margin-top: 5px;
     font-family: 'Open Sans', sans-serif;
@@ -28,9 +26,8 @@ body {
 }
 
 /*-----Navbar-----*/
-
 .navbar {
-    padding: 8px 35px 8px 35px;
+    padding: 8px 15px 8px 15px;
 }
 
 .nav--styl {
@@ -39,17 +36,27 @@ body {
 }
 
 /*---Hero Section---*/
-
-.hero-container {
+.hero--container {
     padding: 0;
 }
 
+.hero--col {
+    padding: 0;
+    position: relative;
+}
+
 .hero--row {
-    height: 75vh;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .carousel-indicators .active {
     background-color: #ef8a17;
+}
+
+.carousel-inner > .carousel-item > img{
+    margin:auto;
+    width:100%;
 }
 
 .jumbotron {
@@ -68,47 +75,25 @@ body {
 
 .jumbotron h2 {
     font-family: 'Lato', sans-serif;
-    color: #fff;
+    color: #ef8a17;
     font-weight: 400;
     font-size: 28px;
 }
 
 .jumbotron p {
     font-family: 'Lato', sans-serif;
-    color: #fff;
+    color: #ef8a17;
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 1px;
     text-decoration: underline;
 }
 
-.triangle-topright {
-    width: 0;
-    height: 0;
-    border-top: 400px solid #e5e5e5;
-    border-left: 400px solid transparent;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    opacity: 0.3;
-}
-
-.triangle-bottomleft {
-    width: 0;
-    height: 0;
-    border-bottom: 400px solid #e5e5e5;
-    border-right: 400px solid transparent;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.3;
-}
-
 /*---Contact Section---*/
-.contact-container {
+.contact--container {
     background-color: #1d3461;
     padding: 0 50px 0 50px;
-    margin-top: 70px; /*----this needs to be fixed---->*/
+    margin-top: 0px;
 }
 
 .contact--findus {
@@ -117,9 +102,6 @@ body {
 
 .contact--opentimes {
     text-align: center;
-    border-left: solid 5px #ef8a17;
-    border-right: solid 5px #ef8a17;
-    border
 }
 
 .contact--contactus {
@@ -128,8 +110,9 @@ body {
 
 .contact--heading h2 {
     font-family: 'Lato', sans-serif;
+    font-size: 20px;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     color: #ef8a17;
 }
@@ -155,31 +138,37 @@ body {
     color: #fff;
 }
 
-.contact-container i {
+.contact--container i {
     color: #fff;
     font-size: 30px;
     margin-top: 15px;
 }
 
 .contact--bottom--row {
-    height: 66px;
+    height: 50px;
 }
 
 /*-----Quotes-Section-----*/
 .quotes-container {
     background-color: #e5e5e5;
+    padding: 0 50px 0 50px;
     margin-top: 0;
 }
 
 .quote--heading h2 {
     font-family: 'Lato', sans-serif;
+    font-size: 20px;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 
 .media--row {
     margin-top: 20px;
+}
+
+.media--col {
+    padding: 0px 25px 0px 25px;
 }
 
 .media-body {
@@ -196,7 +185,7 @@ body {
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
 }
 
@@ -208,7 +197,6 @@ body {
 }
 
 /*-----Footer-----*/
-
 .footer-container {
     height: 56px;
     background-color: #1d3461;
@@ -217,12 +205,13 @@ body {
 
 .social-links {
     text-align: center;
+    margin-bottom: 0;
 }
 
 .social-links li {
     display: inline;
-    padding: 5%;
-    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .social-links i {
@@ -239,7 +228,6 @@ body {
 }
 
 /*---Modal---*/
-
 .modal-header {
     background-color: #1d3461;
 }
@@ -250,4 +238,75 @@ body {
 
 .member--login {
     padding: 0;
+}
+
+/*----Media Queries----*/
+@media screen and (min-width: 768px) {
+    .contact--opentimes {
+    text-align: center;
+    border-left: solid 5px #ef8a17;
+    border-right: solid 5px #ef8a17;
+}
+
+    .triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 300px solid #e5e5e5;
+    border-left: 300px solid transparent;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0.3;
+}
+
+    .triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid #e5e5e5;
+    border-right: 300px solid transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+    .contact--heading h2,
+    .quote--heading h2 {
+    font-size: 28px;
+}
+
+    .contact--row h3 {
+    font-size: 20px;
+}
+
+    .contact--row li,
+    .blockquote {
+    font-size: 18px;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+    .triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 400px solid #e5e5e5;
+    border-left: 400px solid transparent;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0.3;
+}
+
+    .triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid #e5e5e5;
+    border-right: 400px solid transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
 }
