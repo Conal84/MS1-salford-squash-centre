@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<!---Navbar--->
+	<!-- Navbar -->
 	<div class="container-fluid nav--container">
 		<nav class="navbar fixed-top nav--styl navbar-dark navbar-expand-xl">
 			<a class="navbar-brand" href="index.html">Squash Centre</a>
@@ -24,19 +24,19 @@
 
 			<div class="collapse navbar-collapse" id="navbarMenu">
 				<ul class="navbar-nav ml-auto">
-					<li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="facilities.html">Facilities</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="play.html">Play</a></li>
+					<li class="active nav-item mr-2"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Facilities</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#">Play</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#">Login</a></li>
 					<li class="nav-item mr-2">
-						<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong">Sign Up / In</button>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Sign Up</button>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-	<!---/Navbar--->
 
-	<!---Hero Section--->
+	<!-- Hero Section -->
 	<section>
 		<div class="container-fluid hero--container">
 			<div class="row hero--row">
@@ -46,11 +46,11 @@
 							<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
 							<li data-target="#mycarousel" data-slide-to="1"></li>
 							<li data-target="#mycarousel" data-slide-to="2"></li>
-                            <li data-target="#mycarousel" data-slide-to="3"></li>
-                            <li data-target="#mycarousel" data-slide-to="4"></li>
-                            <li data-target="#mycarousel" data-slide-to="5"></li>
-                            <li data-target="#mycarousel" data-slide-to="6"></li>
-                            <li data-target="#mycarousel" data-slide-to="7"></li>
+							<li data-target="#mycarousel" data-slide-to="3"></li>
+							<li data-target="#mycarousel" data-slide-to="4"></li>
+							<li data-target="#mycarousel" data-slide-to="5"></li>
+							<li data-target="#mycarousel" data-slide-to="6"></li>
+							<li data-target="#mycarousel" data-slide-to="7"></li>
 						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item active" data-interval="4000">
@@ -79,23 +79,21 @@
                             </div>
 														</div>
 													</div>
-                                                    <div class="jumbotron d-none d-md-block">
-		                                                <h2>Sign Up Today</h2>
-		                                                <p>No Contract Required!</p>
-		                                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong">Sign Up / In</button>
-	                                                </div>
+													<div class="jumbotron d-none d-md-block">
+														<h2>Sign Up Today</h2>
+														<p>No Contract!</p>
+														<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
+													</div>
 
-                                                    <div class="triangle-topright"></div>
+													<div class="triangle-topright"></div>
 
-                                                    <div class="triangle-bottomleft"></div>
+													<div class="triangle-bottomleft"></div>
 												</div>
 											</div>
 										</div>
 	</section>
 
-	<!---/Hero Section--->
-
-	<!---Contact Section--->
+	<!-- Contact Section -->
 	<section>
 		<div class="container-fluid contact--container">
 			<div class="row">
@@ -105,14 +103,16 @@
 			</div>
 			<div class="row contact--row">
 				<div class="col-12 col-md-4 contact--findus">
-					<i class="fas fa-map-marker-alt"></i>
-					<h3>Find Us</h3>
-					<ul>
-						<li>Squash Centre Salford</li>
-						<li>Chapel Street</li>
-						<li>Manchester</li>
-						<li>M3 6JZ</li>
-					</ul>
+					<a id="google-map" href="https://goo.gl/maps/UzYv4aNMqjiZgoRt5" target="_blank" alt="Google maps location">
+						<i class="fas fa-map-marker-alt"></i>
+						<h3>Find Us</h3>
+						<ul>
+							<li>Squash Centre Salford</li>
+							<li>University Road</li>
+							<li>Salford</li>
+							<li>M5 4WT</li>
+						</ul>
+					</a>
 				</div>
 				<div class="col-12 col-md-4 contact--opentimes">
 					<i class="far fa-clock"></i>
@@ -137,9 +137,8 @@
 			</div>
 		</div>
 	</section>
-	<!---/Contact Section--->
 
-	<!---Quotes Section--->
+	<!-- Quotes Section -->
 	<section>
 		<div class="container-fluid quotes-container">
 			<div class="row">
@@ -151,11 +150,13 @@
 				<div class="col-12 col-md-4 media--col">
 					<div class="media">
 						<div class="media-body">
-							<img src="assets/images/female-headshot.jpg" class="rounded-circle" height=100 width=100>
+							<img src="assets/images/ABarnet-headshot.jpg" class="rounded-circle" alt="Andrea Barnet headshot photo" height=100 width=100>
 							<blockquote class="blockquote">
-								<p>We have a very talented team to help you achieve your goals. Whether you are just beginning or you are an elite player we can use our experience to help you improve</p>
+								<p>We have a very talented team to help you achieve your goals. Whether you are just
+									beginning or you are an elite player we can use our experience to help you improve
+								</p>
 								<p class="quotes--names">Andrea Barnet</p>
-                                <p class="quotes--names">Training Manager</p>
+								<p class="quotes--names">Training Manager</p>
 							</blockquote>
 						</div>
 					</div>
@@ -163,11 +164,13 @@
 				<div class="col-12 col-md-4 media--col">
 					<div class="media">
 						<div class="media-body">
-							<img src="assets/images/male-headshot.jpg" class="rounded-circle" height=100 width=100>
+							<img src="assets/images/CDavis-headshot.jpg" class="rounded-circle" alt="Colin Davis headshot photo" height=100 width=100>
 							<blockquote class="blockquote">
-								<p>The facilities here at the squash centre are world class. Come join us for an introductory training session to tour the courts and changing rooms and find out more.</p>
+								<p>The facilities here at the squash centre are world class. Come join us for an
+									introductory training session to tour the courts and changing rooms and find out
+									more.</p>
 								<p class="quotes--names">Colin Davis</p>
-                                <p class="quotes--names">Senior Instructor</p>
+								<p class="quotes--names">Senior Instructor</p>
 							</blockquote>
 						</div>
 					</div>
@@ -175,11 +178,13 @@
 				<div class="col-12 col-md-4 media--col">
 					<div class="media">
 						<div class="media-body">
-							<img src="assets/images/female-headshot-2.jpg" class="rounded-circle" height=100 width=100>
+							<img src="assets/images/EFarrell-headshot.jpg" class="rounded-circle" alt="Elaine Farrell headshot photo" height=100 width=100>
 							<blockquote class="blockquote">
-								<p>I've played squash at the highest level and have been an instructor for 8 years. I run weekly training sessions at the squash centre which are hard work but great fun!!</p>
+								<p>I've played squash at the highest level and have been an instructor for 8 years. I
+									run weekly training sessions at the squash centre which are hard work but great
+									fun!!</p>
 								<p class="quotes--names">Elaine Farrell</p>
-                                <p class="quotes--names">Advanced Instructor</p>
+								<p class="quotes--names">Advanced Instructor</p>
 							</blockquote>
 						</div>
 					</div>
@@ -187,9 +192,8 @@
 			</div>
 		</div>
 	</section>
-	<!---/Quotes Section--->
 
-	<!---Footer--->
+	<!-- Footer -->
 	<footer>
 		<div class="container-fluid footer-container">
 			<div class="row">
@@ -224,15 +228,14 @@
 			</div>
 		</div>
 	</footer>
-	<!---Footer--->
 
 	<!-- Modal -->
-	<div class="modal fade modal-container" id="exampleModalLong" tabindex="-1" role="dialog"
-		aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal fade modal-container" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalTitle" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Sign Up Today</h5>
+					<h5 class="modal-title" id="myModalTitle">Sign Up Today</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
@@ -252,17 +255,6 @@
 							<input type="submit" class="btn btn-primary btn-sm" value="Send">
                         </div>
 					</form>
-
-					<div class="member--login">
-						<p>Already a member? Log in below</p>
-					</div>
-					<form>
-						<div class="form-group">
-							<input type="text" class="form-control" id="username" name="username" placeholder="Username">
-							<input type="password" class="form-control" id="password" name="password" placeholder="Password">
-							<input type="submit" class="btn btn-primary btn-sm" value="Send">
-                        </div>
-					</form>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -270,7 +262,6 @@
 			</div>
 		</div>
 	</div>
-	<!---/Modal--->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
