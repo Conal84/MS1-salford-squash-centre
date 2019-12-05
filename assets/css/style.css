@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,700&display=swap');
 
+/*html*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*Body*/
 body {
     font-family: 'Open Sans', sans-serif;
@@ -124,7 +129,7 @@ body {
 }
 
 /*Quotes-Section*/
-.quotes-container {
+.quote-container {
     background-color: #e5e5e5;
     padding: 0 50px 0 50px;
     margin-top: 0;
@@ -138,15 +143,15 @@ body {
     text-align: center;
 }
 
-.media--row {
+.quote--row {
     margin-top: 20px;
 }
 
-.media--col {
+.quote--col {
     padding: 0px 25px 0px 25px;
 }
 
-.media-body {
+.quote-body {
     text-align: center;
 }
 
@@ -161,16 +166,17 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 14px;
     text-align: justify;
 }
 
-.quotes--names {
+.quote--names {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-style: italic;
-    margin: 4px;
+    margin: 20px 0px 20px 0px;
+    text-align: left;
 }
 
 /*Footer*/
@@ -215,6 +221,10 @@ body {
 
 .member--login {
     padding: 0;
+}
+
+#close-x {
+    color: #fff;
 }
 
 /*Media Queries*/
