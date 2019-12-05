@@ -8,7 +8,6 @@ html {
 /*Body*/
 body {
     font-family: 'Open Sans', sans-serif;
-    padding-top: 56px;
 }
 
 /*Buttons*/
@@ -33,16 +32,13 @@ body {
 /*Navbar*/
 .navbar {
     padding: 8px 15px 8px 15px;
-}
-
-.nav--styl {
+    border-bottom: 1px solid #ef8a17;
     background-color: #1d3461;
-    border-color: #1d3461;
 }
 
 /*Hero Section*/
 #hero--container {
-    padding: 0;
+    padding: 56px 0px 0px 0px;
 }
 
 .hero--col {
@@ -86,6 +82,14 @@ body {
 
 #contact--contactus {
     text-align: center;
+}
+
+#contact--contactus a {
+    color: #ef8a17;
+}
+
+#contact--contactus a:hover {
+    color: #ef8a17;
 }
 
 #contact--heading h2 {
@@ -183,7 +187,7 @@ body {
 #footer-container {
     height: 56px;
     background-color: #1d3461;
-    border-color: #1d3461;
+    border-top: 1px solid #ef8a17;
 }
 
 #social-links {
