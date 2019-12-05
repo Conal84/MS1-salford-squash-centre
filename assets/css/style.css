@@ -10,6 +10,34 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Headings*/
+.heading-h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.heading-h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    color: #000;
+}
+
+/*Text*/
+.text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*List items*/
+
 /*Buttons*/
 .btn-primary {
     margin-top: 5px;
@@ -92,12 +120,7 @@ body {
     color: #ef8a17;
 }
 
-#contact--heading h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 50px;
-    text-align: center;
+#contact-heading {
     color: #ef8a17;
 }
 
@@ -106,12 +129,7 @@ body {
     padding: 0;
 }
 
-.contact--row h3 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-top: 15px;
+.contact-subheading {
     color: #ef8a17;
 }
 
@@ -139,12 +157,8 @@ body {
     margin-top: 0;
 }
 
-#quote--heading h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 30px;
-    text-align: center;
+#quote-heading {
+    color: #000;
 }
 
 .quote--row {
@@ -167,11 +181,8 @@ body {
 }
 
 .blockquote {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 14px;
     text-align: justify;
 }
 
@@ -181,6 +192,23 @@ body {
     font-style: italic;
     margin: 20px 0px 20px 0px;
     text-align: left;
+}
+
+/*Facilities*/
+#facilities-container {
+    background-color: #1d3461;
+    padding: 0 50px 0 50px;
+    margin-top: 0;
+}
+
+#facilities-heading {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.facilities-image {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*Footer*/
@@ -262,12 +290,12 @@ body {
     opacity: 0.3;
 }
 
-#contact--heading h2,
-#quote--heading h2 {
+#contact-heading,
+#quote-heading {
     font-size: 28px;
 }
 
-.contact--row h3 {
+.contact-subheading {
     font-size: 20px;
 }
 
