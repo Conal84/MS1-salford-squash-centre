@@ -23,8 +23,8 @@
 
 			<div class="collapse navbar-collapse" id="navbarMenu">
 				<ul class="navbar-nav ml-auto">
-					<li class="active nav-item mr-2"><a class="nav-link" href="#hero">Home</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="#">Facilities</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#hero">Home</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#facilities-container">Facilities</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="#">Play</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="#">Login</a></li>
 					<li class="nav-item mr-2">
@@ -178,7 +178,7 @@
 		<div class="row facilities-row">
 			<div class="col-12 col-md-8 facilities-col">
 				<img src="assets/images/court1.jpg" alt="Court photo" class="facilities-image">
-			</div>
+                </div>
 				<div class="col-12 col-md-4">
 					<div>
 						<h3 class="heading-h3 facilities-subheading">Courts</h3>
@@ -194,54 +194,54 @@
 			<div class="row facilities-row">
 				<div class="col-12 col-md-8 facilities-col">
 					<img src="assets/images/changing1.jpg" alt="Changing room photo" class="facilities-image">
-			    </div>
-				<div class="col-12 col-md-4">
-					<div>
-						<h3 class="heading-h3 facilities-subheading">Changing Areas</h3>
-						<ul class="facilities-list">
-							<li>Spacious changing rooms</li>
-							<li>Bathrooms and showers</li>
-                            <li>Secure lockers</li>
-                            <li>Heated flooring</li>
-						</ul>
+                    </div>
+					<div class="col-12 col-md-4">
+						<div>
+							<h3 class="heading-h3 facilities-subheading">Changing Areas</h3>
+							<ul class="facilities-list">
+								<li>Spacious changing rooms</li>
+								<li>Bathrooms and showers</li>
+								<li>Secure lockers</li>
+								<li>Heated flooring</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-            <div class="row facilities-row">
-				<div class="col-12 col-md-8 facilities-col">
-					<img src="assets/images/refresh1.jpg" alt="Social area photo" class="facilities-image">
-			    </div>
-				<div class="col-12 col-md-4">
-					<div>
-						<h3 class="heading-h3 facilities-subheading">Social Space</h3>
-						<ul class="facilities-list">
-							<li>Drinks and snacks bar</li>
-                            <li>After match refuelling</li>
-							<li>Seating area</li>
-							<li>Court views</li>
-						</ul>
+				<div class="row facilities-row">
+					<div class="col-12 col-md-8 facilities-col">
+						<img src="assets/images/refresh1.jpg" alt="Social area photo" class="facilities-image">
+                    </div>
+						<div class="col-12 col-md-4">
+							<div>
+								<h3 class="heading-h3 facilities-subheading">Social Space</h3>
+								<ul class="facilities-list">
+									<li>Drinks and snacks bar</li>
+									<li>After match refuelling</li>
+									<li>Seating area</li>
+									<li>Court views</li>
+								</ul>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-            <div class="row facilities-row">
-                <div class="col-12 facilities-col">
-                    <h3 class="heading-h3 facilities-subheading" id="alsoavailable-heading">Also Available</h3>
-                    <ul class="list-inline" id="facilities-icons">
-                        <li class="list-inline-item">
-                            <p class="text">Free Parking<br /></p>
-                            <i class="fas fa-car"></i>
-                        </li>
-                        <li class="list-inline-item">
-                            <p class="text">Sports Shop<br /></p>
-                            <i class="fas fa-shopping-basket"></i>
-                        </li>
-                        <li class="list-inline-item">
-                            <p class="text">Onsite Gym<br /></p>
-                            <i class="fas fa-dumbbell"></i>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+					<div class="row facilities-row">
+						<div class="col-12 facilities-col">
+							<h3 class="heading-h3 facilities-subheading" id="alsoavailable-heading">Also Available</h3>
+							<ul class="list-inline" id="facilities-icons">
+								<li class="list-inline-item">
+									<p class="text">Free Parking<br /></p>
+										<i class="fas fa-car"></i>
+								</li>
+								<li class="list-inline-item">
+									<p class="text">Sports Shop<br /></p>
+										<i class="fas fa-shopping-basket"></i>
+								</li>
+								<li class="list-inline-item">
+									<p class="text">Onsite Gym<br /></p>
+										<i class="fas fa-dumbbell"></i>
+								</li>
+							</ul>
+						</div>
+					</div>
 	</section>
 
 	<!-- Footer -->
@@ -323,6 +323,11 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
 </body>
 
 </html>

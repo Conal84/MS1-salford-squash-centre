@@ -197,13 +197,14 @@ body {
 /*Facilities*/
 #facilities-container {
     background-color: #1d3461;
-    padding: 0 50px 0 50px;
+    padding: 56px 50px 0 50px;
     margin-top: 0;
 }
 
 #facilities-heading {
     color: #ef8a17;
     margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .facilities-subheading {
@@ -230,7 +231,7 @@ body {
     text-align: center;
 }
 #alsoavailable-heading {
-    margin-top: 0px;
+    margin-top: 10px;
 }
 #facilities-icons {
     text-align: center;
