@@ -406,16 +406,25 @@ body {
     height: auto;
 }
 
-.facilities-col {
-    padding: 0;
-    justify-content: center;
-}
-
 .facilities-row {
     display: flex;
     align-items: center;
 }
 
+#gym-icon {
+    color: #ef8a17;
+}
+
+#changing-area-subhead {
+    color: #1d3461;
+}
+
+#changing-area-list li {
+    color: #ef8a17;
+}
+#middle-row {
+    background-color: #e5e5e5;
+}
 }
 
 /*Desktop and above*/
