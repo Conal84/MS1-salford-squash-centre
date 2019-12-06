@@ -202,13 +202,54 @@ body {
 }
 
 #facilities-heading {
-    color: #fff;
+    color: #ef8a17;
     margin-bottom: 20px;
+}
+
+.facilities-subheading {
+    color: #ef8a17;
+    text-align: center;
 }
 
 .facilities-image {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
+}
+
+.facilities-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.facilities-list li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+#alsoavailable-heading {
+    margin: 15px 0px 15px 0px;
+}
+#facilities-icons {
+    text-align: center;
+}
+
+#facilities-icons li {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 0px;
+}
+
+#facilities-icons p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#facilities-icons i {
+    color: #fff;
+    font-size: 26px;
+    margin-top: 13px;
 }
 
 /*Footer*/
