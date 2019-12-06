@@ -197,7 +197,7 @@ body {
 /*Facilities*/
 #facilities-container {
     background-color: #1d3461;
-    padding: 56px 50px 0 50px;
+    padding: 56px 50px 56px 50px;
     margin-top: 0;
 }
 
@@ -213,7 +213,10 @@ body {
     margin: 15px 0px 10px 0px;
 }
 
-.facilities-image {
+#facilities-image1,
+#facilities-image2,
+#facilities-image3
+ {
     max-width: 100%;
     height: auto;
 }
@@ -252,6 +255,12 @@ body {
     color: #fff;
     font-size: 26px;
     margin-top: 13px;
+}
+
+.grid-icon {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
 }
 
 /*Footer*/
@@ -380,6 +389,31 @@ body {
 #contact--container i,
 #social-links i {
     font-size: 30px;
+}
+
+#facilities-image1 {
+    max-width: 30vw;
+    height: auto;
+}
+
+#facilities-image2 {
+    max-width: 30vw;
+    height: auto;
+}
+
+#facilities-image3 {
+    max-width: 30vw;
+    height: auto;
+}
+
+.facilities-col {
+    padding: 0;
+    justify-content: center;
+}
+
+.facilities-row {
+    display: flex;
+    align-items: center;
 }
 
 }
