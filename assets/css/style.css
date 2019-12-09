@@ -290,7 +290,7 @@ html {
 }
 
 .fees-list li {
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -461,6 +461,11 @@ html {
 }
 #middle-row {
     background-color: #e5e5e5;
+}
+
+#play-fees {
+    border-left: solid 5px #1d3461;
+    border-right: solid 5px #1d3461;
 }
 
 }
