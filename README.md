@@ -4,10 +4,10 @@ This website will meet the squash centre business needs
 of attracting more customers by raising awareness and providing an online presence 
 for the centre. The website will provide a simple to use 
 squash centre infromation and sign up service for new customers.
-Existing customers will also benefit from an efficient court booking system.
+Existing customers will also benefit from an efficient log in area.
 
 The squash centre user needs will be met by the website providing
-key information regarding facilities, court availability, membership and events.
+key information regarding facilities, membership and fees.
 New users will also find helpful information on contact details, location,
 parking facilities and opening times which is aimed at making their first 
 visit to the centre as smooth as possible.
@@ -15,21 +15,21 @@ visit to the centre as smooth as possible.
 ## UX
 ___
 ### User Stories
-As a potential new customer I want to access squash centre information realting to
+As a potential new customer I want to access squash centre information relating to
 a first time visit to the centre. This includes centre location, parking, court and changing room facilities,
-and how to become a member and / or book a court.
+and how to become a member.
 
-As an existing member I want to be able to access squash centre timetable, training session
-and court booking information easily so I can effortlessly use the court facilities.
+As an existing member I want to be able to access the log in area where future functionality could
+provide information on squash centre timetable, training sessions
+and court bookings easily so I can effortlessly use the court facilities.
 
 ### Strategy
 The Salford Squash Centre website will serve the business objectives
 by attracting new customers to the centre and by supporting the needs of
 existing customers. Overall this will increase the squash centre sales.
 
-Website users will have easy access to squash centre information and booking
-systems which will allow them to use the centres facilities in an
-effortless and smooth way.
+Website users will have easy access to squash centre information
+which will allow them to use the centres facilities in an effortless and smooth way.
 
 This website will be aimed at a range of squash player demographics from
 junior amateur players aged 12 to 18, senior amateur players 18 to 50 to 
@@ -40,22 +40,27 @@ a concise manner.
 ### Scope
 Website key features will include the following;
 
-* About Section - provides general squash centre information
-    * Court information
-    * Facilities information
-    * Parking
-    * Membership
-    * Fees
+* Home Section - provides general squash centre information
+    * Contact information
     * Opening times
+    * Location
+    * Quotations from staff
+
+* Facilities Section
+    * Court information
+    * Changing rooms information
+    * General facilities information
 
 * Play Section - provides detailed information on booking and playing
-    * How to sign up for membership
-    * How to access training
+    * Membership schemes
+    * Fees
+    * Training
 
-* Sign In / Up Section
+* Sign In Section
+    * Existing members can sign in here
 
-The site will also have a section with quotations from the squash centre
-coaches which aims to provide a link between the coaches and potential
+The site quotation section with information from the squash centre
+coaches aims to provide a link between the coaches and potential
 new customers. These quotations also give potential new customers a sense
 of the professionalism of the squash centre.
 
@@ -65,23 +70,51 @@ easy to use for the wide ranging demographic. Users should be able to sign up ea
 Information will be provided to users in a concise, straight forward manner. A common navbar and footer
 will be used throughout the design.
 
-Information will be grouped in 3 key areas;
+Information will be grouped in 4 key areas;
 * About - providing general squash centre infromation to the user
+* Facilities - providing specific squash centre infromation
 * Play - providing specific squash playing information
-* Sign Up / In - a page where users can enter their details
+* Sign In - a page where exisintg users can sign in
 
 ### Skeleton
-[Balsamiq-wireframes](/assets/wireframes/Squash-Centre.bmpr)
+[Balsamiq-wireframes](wireframes/Squash-Centre.bmpr)
 
 ### Surface
-I want the colors used on the site to
-mimic the colors of a standard squash court which are white walls with red boundary lines.
+I want the colors used on the site to mimic the colors of a professional squash court which are blue walls.
+The color scheme of the site will match the images of professional courts and players.
+Additional colors have been chosen by using a palette produced on the coolors.co website
+[Coolors-palette](color-scheme/palette.pdf)
 
 ## Features to implement
+Future features will include a functioning existing user Login which will redirect the user to a page where
+they can access a squash court timetable, view available courts and book a court.
+
+Future features will also include a new member sign up page which will allow the new member to select the membership 
+scheme they would like and will then process payment and provide a username and password.
 
 ## Technologies used
+1. HTML
+2. CSS
+3. Bootstrap (4.3.1)
 
 ## Testing
+In each of the main sections; Home, Facilities, Play and Login the required information has been provided and is accessible
+to the end user. 
+
+The layout of information expands into side by side columns on medium sized screens and above. The font also
+increases slightly on medium screens sizes and above to provide easier to read text. At these larger screen sizes 
+a jumbotron has been implemented to grab the attention and draw the user in to the sign up button. This has not been 
+included on smaller screen sizes to prevent screen clutter. The facilities section has information laid out in s single columns
+at samll screen sizes but on medium screens and above this becomes a mosaic tile design to present information in a more intertesting way.
+The functionality of these media queries has been tested across all devices using Chrome Devtools.
+
+The funtionality of Sign Up and Log In buttons has been tested by inputting incorrect and correct information into the required 
+fields. The user cannot submit the Sign Up form without a first name, last name, email address in the correct format and a drop down select.
+The user also cannot submit the Log In form with a username and a password.
+In the Get In Touch section the Google Maps link and the mailto link have also been tested. Social media links in the footer
+have also been tested to ensure they take the user to the correct website.
+
+The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC)
 
 ## Deployment
 
