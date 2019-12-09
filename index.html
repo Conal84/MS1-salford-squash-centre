@@ -296,10 +296,10 @@
 		<form>
 			<div class="form-row" id="login-form">
 				<div class="form-group col-12 col-md-6 offset-md-3">
-					<input type="text" class="form-control" id="login-username" placeholder="Username">
+					<input type="text" class="form-control" id="login-username" placeholder="Username" required>
                 </div>
 					<div class="form-group col-12 col-md-6 offset-md-3">
-						<input type="password" class="form-control" id="login-password" placeholder="Password">
+						<input type="password" class="form-control" id="login-password" placeholder="Password" required>
                 </div>
 						<div class="form-group col-12 col-md-6 offset-md-3">
 							<button type="submit" class="btn btn-primary btn-block">Log In</button>
@@ -366,14 +366,14 @@
 									<div class="form-group col-12">
 										<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                             </div>
-										<div class="form-group col-12">
-											<select class="custom-select" required>
-                                    <option selected>Please choose your skill level</option>
+							<div class="form-group col-12">
+								<select class="custom-select" required>
+                                    <option value="">Please choose your skill level</option>
                                     <option value="1">Junior</option>
                                     <option value="2">Adult</option>
                                     <option value="3">Elite</option>
                                 </select>
-										</div>
+							</div>
 									</div>
 									<button type="submit" class="btn btn-primary btn-block">Sign Up</button>
 					</form>
