@@ -50,13 +50,19 @@ html {
     color: #fff;
     background: #ef8a17;
     border: #ef8a17;
+    -webkit-transition-property: background-color, opacity;
+    -o-transition-property: background-color, opacity;
     transition-property: background-color, opacity;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
 .btn-primary:hover {
     background-color: #ef8a17;
     opacity: 0.75;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
 }
 
@@ -328,12 +334,18 @@ html {
     color: #fff;
     font-size: 26px;
     margin-top: 13px;
+    -webkit-transition-property: color;
+    -o-transition-property: color;
     transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
 #social-links i:hover {
     color: #ef8a17;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
 }
 
@@ -444,7 +456,11 @@ html {
 }
 
 .facilities-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
