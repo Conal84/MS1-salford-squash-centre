@@ -3,17 +3,22 @@
 /*html*/
 html {
     scroll-behavior: smooth;
-}
-
-/*Body*/
-body {
-    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 /*Headings*/
+.heading-h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 40px;
+    text-align: center;
+    color: #000;
+}
+
 .heading-h2 {
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 400;
     margin-top: 40px;
     text-align: center;
@@ -22,8 +27,8 @@ body {
 
 .heading-h3 {
     font-family: 'Lato', sans-serif;
+    font-size: 1.12rem;
     font-weight: 700;
-    font-size: 16px;
     letter-spacing: 2px;
     margin-top: 15px;
     color: #000;
@@ -33,10 +38,8 @@ body {
 .text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
 }
-
-/*List items*/
 
 /*Buttons*/
 .btn-primary {
@@ -65,16 +68,16 @@ body {
 }
 
 /*Hero Section*/
-#hero--container {
+#hero-container {
     padding: 56px 0px 0px 0px;
 }
 
-.hero--col {
+.hero-col {
     padding: 0;
     position: relative;
 }
 
-.hero--row {
+.hero-row {
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -90,33 +93,33 @@ body {
 }
 
 /*Contact Section*/
-#contact--container {
+#contact-container {
     background-color: #1d3461;
     padding: 0 50px 0 50px;
     margin-top: 0px;
 }
 
-#contact--findus {
+#contact-findus {
     text-align: center;
 }
 
-#contact--findus a:hover {
+#contact-findus a:hover {
     color: #ef8a17;
 }
 
-#contact--opentimes {
+#contact-opentimes {
     text-align: center;
 }
 
-#contact--contactus {
+#contact-contactus {
     text-align: center;
 }
 
-#contact--contactus a {
+#contact-contactus a {
     color: #ef8a17;
 }
 
-#contact--contactus a:hover {
+#contact-contactus a:hover {
     color: #ef8a17;
 }
 
@@ -124,7 +127,7 @@ body {
     color: #ef8a17;
 }
 
-.contact--row ul {
+.contact-row ul {
     list-style: none;
     padding: 0;
 }
@@ -133,20 +136,20 @@ body {
     color: #ef8a17;
 }
 
-.contact--row li {
+.contact-row li {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     color: #fff;
 }
 
-#contact--container i {
+#contact-container i {
     color: #fff;
     font-size: 26px;
     margin-top: 15px;
 }
 
-#contact--bottom--row {
+#contact-bottom-row {
     height: 50px;
 }
 
@@ -161,11 +164,11 @@ body {
     color: #000;
 }
 
-.quote--row {
+.quote-row {
     margin-top: 20px;
 }
 
-.quote--col {
+.quote-col {
     padding: 0px 25px 0px 25px;
 }
 
@@ -186,7 +189,7 @@ body {
     text-align: justify;
 }
 
-.quote--names {
+.quote-names {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -227,7 +230,7 @@ body {
 .facilities-list li {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     color: #fff;
     text-align: center;
 }
@@ -271,8 +274,6 @@ body {
 
 #play-heading {
     color: #1d3461;
-    font-size: 26px;
-    font-weight: 700;
     margin-bottom: 20px;
     margin-top: 0px;
 }
@@ -356,7 +357,11 @@ body {
 /*Media Queries*/
 /*iPad and above*/
 @media screen and (min-width: 768px) {
-#contact--opentimes {
+html {
+    font-size: 18px;
+}
+
+#contact-opentimes {
     text-align: center;
     border-left: solid 5px #ef8a17;
     border-right: solid 5px #ef8a17;
@@ -393,7 +398,7 @@ body {
     font-size: 20px;
 }
 
-.contact--row li,
+.contact-row li,
 .blockquote {
     font-size: 18px;
 }
@@ -428,7 +433,7 @@ body {
     text-decoration: underline;
 }
 
-#contact--container i,
+#contact-container i,
 #social-links i {
     font-size: 30px;
 }
@@ -457,12 +462,13 @@ body {
 #middle-row {
     background-color: #e5e5e5;
 }
+
 }
 
 /*Desktop and above*/
 @media screen and (min-width: 1200px) {
 .carousel-inner > .carousel-item > img{
-    height: 85vh;
+    height: 90vh;
 }
 
 #triangle-topright {
