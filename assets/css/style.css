@@ -213,9 +213,7 @@ body {
     margin: 15px 0px 10px 0px;
 }
 
-#facilities-image1,
-#facilities-image2,
-#facilities-image3
+.facilities-image
  {
     max-width: 100%;
     height: auto;
@@ -261,6 +259,50 @@ body {
     color: #fff;
     font-size: 26px;
     text-align: center;
+}
+
+/*Play*/
+#play-container {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 56px 50px 56px 50px;
+    margin-top: 0;
+}
+
+#play-heading {
+    color: #1d3461;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.play-subheading {
+    color: #1d3461;
+    text-align: center;
+    margin: 15px 0px 10px 0px;
+}
+
+.fees-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.fees-list li {
+    font-size: 14px;
+    text-align: center;
+}
+
+/*Login*/
+#login-container {
+    background-color: #1d3461;
+    padding: 26px 50px 56px 50px;
+    margin-top: 0;
+}
+
+#login-heading {
+    color: #ef8a17;
+    margin-bottom: 20px;
 }
 
 /*Footer*/
@@ -391,17 +433,7 @@ body {
     font-size: 30px;
 }
 
-#facilities-image1 {
-    max-width: 30vw;
-    height: auto;
-}
-
-#facilities-image2 {
-    max-width: 30vw;
-    height: auto;
-}
-
-#facilities-image3 {
+.facilities-image {
     max-width: 30vw;
     height: auto;
 }
@@ -441,7 +473,6 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    opacity: 0.5;
 }
 
 #triangle-bottomleft {
@@ -452,7 +483,6 @@ body {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
 }
 
 .jumbotron {

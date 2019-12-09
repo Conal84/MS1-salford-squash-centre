@@ -25,8 +25,8 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item mr-2"><a class="nav-link" href="#hero">Home</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="#facilities-container">Facilities</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="#">Play</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="#">Login</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#play-container">Play</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="#login-container">Login</a></li>
 					<li class="nav-item mr-2">
 						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Sign Up</button>
 					</li>
@@ -83,8 +83,8 @@
 	<!-- Contact Section -->
 	<section class="container-fluid" id="contact--container">
 		<div class="row">
-			<div class="col-12 heading-h2" id="contact-heading">
-				<h2>Get In Touch</h2>
+			<div class="col-12">
+				<h2 class="heading-h2" id="contact-heading">Get In Touch</h2>
 			</div>
 		</div>
 		<div class="row contact--row">
@@ -127,8 +127,8 @@
 	<!-- Quotes Section -->
 	<section class="container-fluid" id="quote-container">
 		<div class="row">
-			<div class="col-12 heading-h2" id="quote-heading">
-				<h2>Our Coaches</h2>
+			<div class="col-12" >
+				<h2 class="heading-h2" id="quote-heading">Our Coaches</h2>
 			</div>
 		</div>
 		<div class="row quote--row">
@@ -171,14 +171,14 @@
 	<!-- Facilities -->
 	<section class="container-fluid" id="facilities-container">
 		<div class="row">
-			<div class="col-12 heading-h2" id="facilities-heading">
-				<h2>Check Out Our Facilities</h2>
+			<div class="col-12">
+				<h2 class="heading-h2" id="facilities-heading">Check Out Our Facilities</h2>
 			</div>
 		</div>
 		<div class="row facilities-row no-gutters">
 			<div class="col-12 col-md-4 order-md-1">
 			    <div>
-				    <img src="assets/images/court1.jpg" alt="Court photo" id="facilities-image1">
+				    <img src="assets/images/court1.jpg" alt="Court photo" class="facilities-image">
 			    </div>
             </div>
 			<div class="col-12 col-md-4 order-md-2">
@@ -199,7 +199,7 @@
 		</div>
 		<div class="row facilities-row no-gutters" id="middle-row">
 			<div class="col-12 col-md-4 order-md-2">
-				<img src="assets/images/changing1.jpg" alt="Changing room photo" id="facilities-image2">
+				<img src="assets/images/changing1.jpg" alt="Changing room photo" class="facilities-image">
             </div>
 			<div class="col-12 col-md-4 order-md-3">
 				<div>
@@ -218,8 +218,8 @@
             </div>
 		</div>
 			<div class="row facilities-row no-gutters">
-				<div class="col-12 col-md-4 order-md-1">
-					<img src="assets/images/refresh1.jpg" alt="Social area photo" id="facilities-image3">
+				<div class="col-12 col-md-4 order-md-3">
+					<img src="assets/images/refresh1.jpg" alt="Social area photo" class="facilities-image">
                 </div>
 				<div class="col-12 col-md-4 order-md-2">
 					<div>
@@ -232,7 +232,7 @@
 						</ul>
 					</div>
 				</div>
-                <div class="grid-icon d-none d-md-block col-md-4 order-md-3">
+                <div class="grid-icon d-none d-md-block col-md-4 order-md-1">
                     <p class="text">Free Parking<br /></p>
 					<i class="fas fa-car"></i>
                 </div>
@@ -262,24 +262,48 @@
     <section class="container-fluid" id="play-container">
         <div class="row">
             <div class="col-12">
-                <h3 class="heading-h3">Membership</h3>
-                <p>Flexible membership paid on a monthly, 6 monthly or yearly basis. Includes access to gym, parking and training classes.</p>
+                <h2 class="heading-h2" id="play-heading">How to Play</h2>
             </div>
-            <div class="col-12">
-                <h3 class="heading-h3">Fees</h3>
-                <ul>
+            <div class="col-12 col-md-4">
+                <h3 class="heading-h3 play-subheading">Membership</h3>
+                <p class="text" >Flexible membership paid on a monthly, 6 monthly or yearly basis. Includes access to gym, parking and training sessions.</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3 class="heading-h3 play-subheading">Fees</h3>
+                <ul class="fees-list">
                     <li>£10.00 per month</li>
                     <li>£50.00 per 6 months</li>
                     <li>£90.00 per year</li>
                     <li>Kids under 16 - 20% discount</li>
                 </ul>
             </div>
-            <div class="col-12">
-                <h3 class="heading-h3">Training</h3>
-                <p>Our coaches carry out weekly training sessions for members of allages and ability</p>
+            <div class="col-12 col-md-4">
+                <h3 class="heading-h3 play-subheading">Training</h3>
+                <p class="text">Our coaches carry out weekly training sessions for members of all ages and ability</p>
             </div>
         </div>
     </section>
+
+    <!-- LogIn -->
+    <section class="container-fluid" id="login-container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="heading-h2" id="login-heading">Log In</h2>
+            </div>
+        </div>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-12">
+                    <input type="text" class="form-control" id="login-username" placeholder="Username">
+                </div>
+                <div class="form-group col-12">
+                    <input type="password" class="form-control" id="login-password" placeholder="Password">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Log In</button>
+        </form>
+    </section>
+
 
 	<!-- Footer -->
 	<footer class="container-fluid" id="footer-container">
