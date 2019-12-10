@@ -101,6 +101,7 @@ scheme they would like and will then process payment and provide a username and 
 1. HTML
 2. CSS
 3. Bootstrap (4.3.1)
+4. Javascript
 
 ## Testing
 In each of the main sections; Home, Facilities, Play and Login the required information has been provided and is accessible
@@ -131,18 +132,15 @@ This site is hosted on Github pages at the link below.
 Due to the difficulty in finding large good quality squash images on stock photo websites the images for the site were found 
 by google searches at the links below.
 
-Description | link
----------------- | ----------------
-Carousel | [carousel image 1](https://www.gq-magazine.co.uk/article/how-to-play-a-killer-squash-serve)
-Carousel | [carousel image 2](https://www.axios.com/newsletters/axios-sports-71a2fe22-8b3f-449a-9fc5-dfaf10ff3574.html)
-Carousel | [carousel image 3](https://www.axios.com/newsletters/axios-sports-de0e0ae1-e235-4424-a5e8-ddd4b5065f9f.html)
-Carousel | [carousel image 4](https://www.elmogaz.com/node/572311)
-Carousel | [carousel image 5](https://www.squashsource.com/asics-gel-blade-4/)
-Carousel | [carousel image 6](https://twitter.com/PSAWorldTour/status/956709294862426112)
-Coaches | [headshot images](https://www.vosjcc.org/personal-training/)
-Facilities | [facilities images](https://www.washingtonian.com/2017/05/16/take-a-first-look-inside-dcs-luxe-new-squash-gym/)
+[carousel image 1](https://www.gq-magazine.co.uk/article/how-to-play-a-killer-squash-serve)
+[carousel image 2](https://www.axios.com/newsletters/axios-sports-71a2fe22-8b3f-449a-9fc5-dfaf10ff3574.html)
+[carousel image 3](https://www.axios.com/newsletters/axios-sports-de0e0ae1-e235-4424-a5e8-ddd4b5065f9f.html)
+[carousel image 4](https://www.elmogaz.com/node/572311)
+[carousel image 5](https://www.squashsource.com/asics-gel-blade-4/)
+[carousel image 6](https://twitter.com/PSAWorldTour/status/956709294862426112)
+[headshot images](https://www.vosjcc.org/personal-training/)
+[facilities images](https://www.washingtonian.com/2017/05/16/take-a-first-look-inside-dcs-luxe-new-squash-gym/)
 
 ## Acknowledgements
 
-The javascript to close the navbar menu once a selection has been made was found at this site.  
-[site](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)
+The javascript to close the navbar menu once a selection has been made was found at this [site](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/).
