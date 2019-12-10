@@ -204,10 +204,16 @@ html {
 }
 
 /*Facilities*/
+#facilities-scroll {
+    position: absolute;
+    top: -56px;
+}
+
 #facilities-container {
     background-color: #1d3461;
     padding: 56px 50px 56px 50px;
     margin-top: 0;
+    position: relative;
 }
 
 #facilities-heading {
@@ -271,11 +277,17 @@ html {
 }
 
 /*Play*/
+#play-scroll {
+    position: absolute;
+    top: -56px;
+}
+
 #play-container {
     background-color: #e5e5e5;
     text-align: center;
     padding: 56px 50px 56px 50px;
     margin-top: 0;
+    position: relative;
 }
 
 #play-heading {

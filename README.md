@@ -77,7 +77,9 @@ Information will be grouped in 4 key areas;
 * Sign In - a page where exisintg users can sign in
 
 ### Skeleton
-[Balsamiq-wireframes](wireframes/Squash-Centre.bmpr)
+[Balsamiq-wireframe-mobile](wireframes/Squash-Centre-wireframe-mobile.pdf)
+[Balsamiq-wireframe-tablet](wireframes/Squash-Centre-wireframe-tablet.pdf)
+[Balsamiq-wireframe-desktop](wireframes/Squash-Centre-wireframe-desktop.pdf)
 
 ### Surface
 I want the colors used on the site to mimic the colors of a professional squash court which are blue walls.
