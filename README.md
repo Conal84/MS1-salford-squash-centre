@@ -13,7 +13,6 @@ parking facilities and opening times which is aimed at making their first
 visit to the centre as smooth as possible.
 
 ## UX
-___
 ### User Stories
 As a potential new customer I want to access squash centre information relating to
 a first time visit to the centre. This includes centre location, parking, court and changing room facilities,
@@ -70,6 +69,10 @@ easy to use for the wide ranging demographic. Users should be able to sign up ea
 Information will be provided to users in a concise, straight forward manner. A common navbar and footer
 will be used throughout the design.
 
+The mobile first design will arrange information in single full width columns to allow content to be read easily.
+On larger tablet and desktop display infromation will be arranged in additional columns using Bootstraps responsive grid design.
+On larger displays the facilties section has been arranged in a mosaic type grid to present content in a more interesting, eye catching way.
+
 Information will be grouped in 4 key areas;
 * About - providing general squash centre infromation to the user
 * Facilities - providing specific squash centre infromation
@@ -77,14 +80,14 @@ Information will be grouped in 4 key areas;
 * Sign In - a page where exisintg users can sign in
 
 ### Skeleton
-[Balsamiq-wireframe-mobile](wireframes/Squash-Centre-wireframe-mobile.pdf)
-[Balsamiq-wireframe-tablet](wireframes/Squash-Centre-wireframe-tablet.pdf)
+[Balsamiq-wireframe-mobile](wireframes/Squash-Centre-wireframe-mobile.pdf)  
+[Balsamiq-wireframe-tablet](wireframes/Squash-Centre-wireframe-tablet.pdf)  
 [Balsamiq-wireframe-desktop](wireframes/Squash-Centre-wireframe-desktop.pdf)
 
 ### Surface
 I want the colors used on the site to mimic the colors of a professional squash court which are blue walls.
 The color scheme of the site will match the images of professional courts and players.
-Additional colors have been chosen by using a palette produced on the coolors.co website
+Additional colors have been chosen by using a palette produced on the coolors.co website.  
 [Coolors-palette](color-scheme/palette.pdf)
 
 ## Features to implement
@@ -119,5 +122,8 @@ have also been tested to ensure they take the user to the correct website.
 The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC)
 
 ## Deployment
+This site is hosted on Github pages at the link below.
+
+[salfordsquash centre GitHub Pages](https://conal84.github.io/MS1-salford-squash-centre/)
 
 ## Credits
