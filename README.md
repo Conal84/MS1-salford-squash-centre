@@ -144,3 +144,5 @@ by google searches at the links below.
 ## Acknowledgements
 
 The javascript to close the navbar menu once a selection has been made was found at this [site](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/).
+
+**This is for educational use.**
