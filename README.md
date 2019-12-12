@@ -1,5 +1,5 @@
 # Salford Squash Centre
-
+[View website in GitHub Pages](https://conal84.github.io/MS1-salford-squash-centre/)
 This website will meet the squash centre business needs
 of attracting more customers by raising awareness and providing an online presence 
 for the centre. The website will provide a simple to use 
@@ -88,7 +88,7 @@ Information will be grouped in 4 key areas;
 I want the colors used on the site to mimic the colors of a professional squash court which are blue walls.
 The color scheme of the site will match the images of professional courts and players.
 Additional colors have been chosen by using a palette produced on the coolors.co website.  
-[Coolors-palette](color-scheme/palette.pdf)
+[Coolors-palette](wireframes/palette.pdf)
 
 ## Features to implement
 Future features will include a functioning existing user Login which will redirect the user to a page where
