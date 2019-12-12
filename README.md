@@ -1,5 +1,5 @@
 # Salford Squash Centre
-[View website in GitHub Pages](https://conal84.github.io/MS1-salford-squash-centre/)
+[View website in GitHub Pages](https://conal84.github.io/MS1-salford-squash-centre/)  
 This website will meet the squash centre business needs
 of attracting more customers by raising awareness and providing an online presence 
 for the centre. The website will provide a simple to use 
