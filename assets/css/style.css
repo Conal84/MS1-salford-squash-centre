@@ -3,7 +3,6 @@
 /*html*/
 html {
     scroll-behavior: smooth;
-    font-size: 16px;
 }
 
 /*Headings*/
@@ -38,7 +37,6 @@ html {
 .text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
 }
 
 /*Buttons*/
@@ -101,24 +99,13 @@ html {
 /*Contact Section*/
 #contact-container {
     background-color: #1d3461;
-    padding: 0 50px 0 50px;
+    padding: 50px 50px 50px 50px;
     margin-top: 0px;
-}
-
-#contact-findus {
     text-align: center;
 }
 
 #contact-findus a:hover {
     color: #ef8a17;
-}
-
-#contact-opentimes {
-    text-align: center;
-}
-
-#contact-contactus {
-    text-align: center;
 }
 
 #contact-contactus a {
@@ -130,6 +117,7 @@ html {
 }
 
 #contact-heading {
+    margin-top: 0px;
     color: #ef8a17;
 }
 
@@ -155,18 +143,15 @@ html {
     margin-top: 15px;
 }
 
-#contact-bottom-row {
-    height: 50px;
-}
-
 /*Quotes-Section*/
 #quote-container {
     background-color: #e5e5e5;
-    padding: 0 50px 0 50px;
+    padding: 50px 50px 50px 50px;
     margin-top: 0;
 }
 
 #quote-heading {
+    margin-top: 0px;
     color: #000;
 }
 
@@ -199,19 +184,19 @@ html {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-style: italic;
-    margin: 20px 0px 20px 0px;
+    margin-top: 20px;
     text-align: left;
 }
 
 /*Facilities*/
 #facilities-scroll {
     position: absolute;
-    top: -56px;
+    top: -50px;
 }
 
 #facilities-container {
     background-color: #1d3461;
-    padding: 56px 50px 56px 50px;
+    padding: 50px 50px 50px 50px;
     margin-top: 0;
     position: relative;
 }
@@ -279,13 +264,13 @@ html {
 /*Play*/
 #play-scroll {
     position: absolute;
-    top: -56px;
+    top: -50px;
 }
 
 #play-container {
     background-color: #e5e5e5;
     text-align: center;
-    padding: 56px 50px 56px 50px;
+    padding: 50px 50px 50px 50px;
     margin-top: 0;
     position: relative;
 }
@@ -315,13 +300,13 @@ html {
 /*Login*/
 #login-container {
     background-color: #1d3461;
-    padding: 26px 50px 56px 50px;
+    padding: 50px 50px 50px 50px;
     margin-top: 0;
 }
 
 #login-heading {
     color: #ef8a17;
-    margin-bottom: 20px;
+    margin: 10px 0px 10px 0px;
 }
 
 /*Footer*/
