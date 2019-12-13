@@ -1,5 +1,6 @@
 # Salford Squash Centre  
-[View website in GitHub Pages](https://conal84.github.io/MS1-salford-squash-centre/) 
+[View website in GitHub Pages](https://conal84.github.io/MS1-salford-squash-centre/)  
+
 This website will meet the squash centre business needs
 of attracting more customers by raising awareness and providing an online presence 
 for the centre. The website will provide a simple to use 
@@ -39,7 +40,7 @@ a concise manner.
 ### Scope
 Website key features will include the following;
 
-* Header Navigation bar  
+* Header Navigation bar - provides webpage navigation options and links
     * Header Logo which also acts as a Home button  
     * Navigation items with links which scroll to related webpage content  
     * Hamburger icon which contains dropdown navigation items at screen sizes smaller than large
@@ -52,7 +53,7 @@ Website key features will include the following;
     * Location
     * Quotations from staff
 
-* Facilities Section
+* Facilities Section - provides detailed information on squash centre facilities
     * Court information
     * Changing rooms information
     * General facilities information
@@ -62,7 +63,7 @@ Website key features will include the following;
     * Fees
     * Training
 
-* Sign In Section
+* Sign In Section - allows existing members to sign in
     * Existing members can sign in here
 
 The site quotation section with information from the squash centre
@@ -129,10 +130,8 @@ The functionality of these media queries has been tested across all devices usin
 
 The funtionality of Sign Up and Log In buttons has been tested by inputting incorrect and correct information into the required 
 fields. The user cannot submit the Sign Up form without a first name, last name, email address in the correct format and a drop down select.
-The user also cannot submit the Log In form without a username and a password.
-In the Get In Touch section the Google Maps link and the mailto link have also been tested. Social media links in the footer
-have also been tested to ensure they take the user to the correct website.  
-The naviagtion bar link items have been tested to ensure that when pressed the webpage scrolls to the correct content section.
+The user also cannot submit the Log In form without a username and a password. In the Get In Touch section the Google Maps link and the mailto link have also been tested. Social media links in the footer
+have also been tested to ensure they take the user to the correct website. The naviagtion bar link items have been tested to ensure that when pressed the webpage scrolls to the correct content section.
 
 The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC) using Chrome Dev tools.  
 The responsive design was also physically tested on personal Iphone, IPad, desktop and widescreen monitor devices.
