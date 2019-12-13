@@ -213,11 +213,15 @@ html {
     margin: 15px 0px 10px 0px;
 }
 
+.facilities-image-container {
+    overflow: hidden;
+}
+
 .facilities-image
  {
-    max-width: 100%;
-    height: auto;
-}
+    width: 100%;
+    max-height: auto;
+ }
 
 .facilities-list {
     list-style: none;
@@ -448,7 +452,7 @@ html {
 }
 
 .facilities-image {
-    max-width: 30vw;
+    max-width: 33vw;
     height: auto;
 }
 
