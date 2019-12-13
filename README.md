@@ -39,7 +39,14 @@ a concise manner.
 ### Scope
 Website key features will include the following;
 
+* Header Navigation bar  
+    * Header Logo which also acts as a Home button  
+    * Navigation items with links which scroll to related webpage content  
+    * Hamburger icon which contains dropdown navigation items at screen sizes smaller than large
+
 * Home Section - provides general squash centre information
+    * Images carousel of squash players  
+    * Call to action button for user to sign up
     * Contact information
     * Opening times
     * Location
@@ -91,17 +98,23 @@ Additional colors have been chosen by using a palette produced on the coolors.co
 [Coolors-palette](wireframes/palette.pdf)
 
 ## Features to implement
-Future features will include a functioning existing user Login which will redirect the user to a page where
+Future features will include a functioning existing user Login section which will redirect the user to a page where
 they can access a squash court timetable, view available courts and book a court.
 
 Future features will also include a new member sign up page which will allow the new member to select the membership 
-scheme they would like and will then process payment and provide a username and password.
+scheme they would like and will then process payment and provide a username and password.  
+
+A future training section would allow users to view and select training sessions and contain imbedded short training 
+squash tips videos.
 
 ## Technologies used
 1. HTML
 2. CSS
 3. Bootstrap (4.3.1)
 4. Javascript
+5. Google Fonts
+6. AutoPrefixer
+7. W3C HTML & CSS code validators
 
 ## Testing
 In each of the main sections; Home, Facilities, Play and Login the required information has been provided and is accessible
@@ -110,22 +123,47 @@ to the end user.
 The layout of information expands into side by side columns on medium sized screens and above. The font also
 increases slightly on medium screens sizes and above to provide easier to read text. At these larger screen sizes 
 a jumbotron has been implemented to grab the attention and draw the user in to the sign up button. This has not been 
-included on smaller screen sizes to prevent screen clutter. The facilities section has information laid out in s single columns
-at samll screen sizes but on medium screens and above this becomes a mosaic tile design to present information in a more intertesting way.
+included on smaller screen sizes to prevent screen clutter. The facilities section has information laid out in single columns
+at small screen sizes but on medium screens and above this becomes a mosaic tile design to present information in a more intertesting way.
 The functionality of these media queries has been tested across all devices using Chrome Devtools.
 
 The funtionality of Sign Up and Log In buttons has been tested by inputting incorrect and correct information into the required 
 fields. The user cannot submit the Sign Up form without a first name, last name, email address in the correct format and a drop down select.
-The user also cannot submit the Log In form with a username and a password.
+The user also cannot submit the Log In form without a username and a password.
 In the Get In Touch section the Google Maps link and the mailto link have also been tested. Social media links in the footer
-have also been tested to ensure they take the user to the correct website.
+have also been tested to ensure they take the user to the correct website.  
+The naviagtion bar link items have been tested to ensure that when pressed the webpage scrolls to the correct content section.
 
-The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC)
+The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC) using Chrome Dev tools.  
+The responsive design was also physically tested on personal Iphone, IPad, desktop and widescreen monitor devices.
 
-## Deployment
-This site is hosted on Github pages at the link below.
+W3C CSS & HTML Validators were used to check the validity and formatting of code.  
 
-[salford squash centre GitHub Pages](https://conal84.github.io/MS1-salford-squash-centre/)
+Fellow student feedback was also key to the testing procedure where other course participants provided me with some valuable tips.
+
+## Deployment  
+This project was developed using the GitPod IDE, version controlled by committing to git and pushing to GitHub via the GitPod IDE.
+
+To deploy this page to GitHub pages from its specific [GitHub repository](https://github.com/Conal84/MS1-salford-squash-centre) the steps followed were;
+
+1. Log into GitHub
+2. In the Repositories list select **MS1-salford-squash-centre**
+3. From the menu select **Settings**
+4. Scroll down to the **GitHub Pages** section
+5. Under **Source** select **Master branch**
+6. On selecting Master branch the page is automatically refreshed, the website is now delployed
+7. The link to the webpage can be found at the top of the **GitHub Pages** section
+
+### How to run this project locally
+To clone this project from GitHub:
+
+1. Follow this link to the [Project GitHub repository.](https://github.com/Conal84/MS1-salford-squash-centre)
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository.
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created
 
 ## Credits
 
