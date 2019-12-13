@@ -133,8 +133,7 @@ fields. The user cannot submit the Sign Up form without a first name, last name,
 The user also cannot submit the Log In form without a username and a password. In the Get In Touch section the Google Maps link and the mailto link have also been tested. Social media links in the footer
 have also been tested to ensure they take the user to the correct website. The naviagtion bar link items have been tested to ensure that when pressed the webpage scrolls to the correct content section.
 
-The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC) using Chrome Dev tools.  
-The responsive design was also physically tested on personal Iphone, IPad, desktop and widescreen monitor devices.
+The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC) using Chrome Dev tools. The responsive design was also physically tested on personal Iphone, IPad, desktop and widescreen monitor devices.
 
 W3C CSS & HTML Validators were used to check the validity and formatting of code.  
 
