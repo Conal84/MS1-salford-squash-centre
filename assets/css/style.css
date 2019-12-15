@@ -105,15 +105,16 @@ html {
 }
 
 #contact-findus a:hover {
-    color: #ef8a17;
+    text-decoration: none;
 }
 
 #contact-contactus a {
-    color: #ef8a17;
+    color: #fff;
 }
 
 #contact-contactus a:hover {
     color: #ef8a17;
+    text-decoration: none;
 }
 
 #contact-heading {
@@ -217,10 +218,9 @@ html {
     overflow: hidden;
 }
 
-.facilities-image
- {
-    width: 100%;
-    max-height: auto;
+.facilities-image {
+    max-width: 100%;
+    height: auto;
  }
 
 .facilities-list {
@@ -492,6 +492,7 @@ html {
 @media screen and (min-width: 1024px) {
 .carousel-inner > .carousel-item > img{
     height: 70vh;
+}
 }
 
 /*Desktop and above*/
