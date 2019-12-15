@@ -14,8 +14,7 @@
 
 <body>
 	<!-- Navbar -->
-	<section class="container-fluid">
-		<a id="hero-scroll"> </a>
+	<section class="container-fluid" id="hero-scroll">
 		<nav class="navbar fixed-top navbar-dark navbar-expand-xl">
 			<a class="navbar-brand" href="#hero-scroll">Squash Centre</a>
 
@@ -30,7 +29,7 @@
 					<li class="nav-item mr-2"><a class="nav-link" href="#play-scroll">Play</a></li>
 					<li class="nav-item mr-2"><a class="nav-link" href="#login-scroll">Login</a></li>
 					<li class="nav-item mr-2">
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Sign Up</button>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
 					</li>
 				</ul>
 			</div>
@@ -74,7 +73,7 @@
 			    <div class="jumbotron d-none d-md-block">
 				    <h2>Join Us Today</h2>
 				    <p>No Contract!</p>
-				    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
+				    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
 			    </div>
 			    <div id="triangle-topright"></div>
 			    <div id="triangle-bottomleft"></div>
@@ -350,12 +349,12 @@
 	</footer>
 
 	<!-- Modal -->
-	<div class="modal fade modal-container" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle"
+	<div class="modal fade modal-container" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="SignUpModalTitle"
 		aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="myModalTitle">Sign Up Today</h5>
+					<h5 class="modal-title" id="SignUpModalTitle">Sign Up Today</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true" id="close-x">&times;</span>
                     </button>
@@ -383,9 +382,6 @@
 						</div>
 						<button type="submit" class="btn btn-primary btn-block">Sign Up</button>
 					</form>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
