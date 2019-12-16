@@ -5,38 +5,33 @@ html {
     scroll-behavior: smooth;
 }
 
+/*body*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
 /*Headings*/
 .heading-h1 {
-    font-family: 'Lato', sans-serif;
     font-size: 2rem;
-    font-weight: 400;
     margin-top: 40px;
     text-align: center;
     color: #000;
 }
 
 .heading-h2 {
-    font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
-    font-weight: 400;
     margin-top: 40px;
     text-align: center;
     color: #000;
 }
 
 .heading-h3 {
-    font-family: 'Lato', sans-serif;
     font-size: 1.12rem;
     font-weight: 700;
     letter-spacing: 2px;
     margin-top: 15px;
     color: #000;
-}
-
-/*Text*/
-.text {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
 }
 
 /*Buttons*/
@@ -63,8 +58,6 @@ html {
     -o-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
 }
-
-
 
 /*Navbar*/
 .navbar {
@@ -134,8 +127,6 @@ html {
 }
 
 .contact-row li {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
     font-size: 1rem;
     color: #fff;
 }
@@ -184,7 +175,6 @@ html {
 }
 
 .quote-names {
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-style: italic;
     margin-top: 20px;
@@ -194,7 +184,7 @@ html {
 /*Facilities*/
 #facilities-scroll {
     position: absolute;
-    top: -50px;
+    top: -50px; /*offset absolute position allows scroll to top of facilities container*/
 }
 
 #facilities-container {
@@ -231,8 +221,6 @@ html {
 }
 
 .facilities-list li {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
     font-size: 1rem;
     color: #fff;
     text-align: center;
@@ -270,7 +258,7 @@ html {
 /*Play*/
 #play-scroll {
     position: absolute;
-    top: -50px;
+    top: -50px; /*offset absolute position allows scroll to top of facilities container*/
 }
 
 #play-container {
@@ -425,7 +413,6 @@ html {
 }
 
 .jumbotron h2 {
-    font-family: 'Lato', sans-serif;
     color: #fff;
     font-weight: 700;
     font-size: 22px;
@@ -433,7 +420,6 @@ html {
 }
 
 .jumbotron p {
-    font-family: 'Lato', sans-serif;
     color: #fff;
     font-weight: 700;
     font-size: 18px;
@@ -530,7 +516,6 @@ html {
 }
 
 .jumbotron h2 {
-    font-family: 'Lato', sans-serif;
     color: #fff;
     font-weight: 900;
     font-size: 28px;
@@ -538,7 +523,6 @@ html {
 }
 
 .jumbotron p {
-    font-family: 'Lato', sans-serif;
     color: #fff;
     font-weight: 700;
     font-size: 22px;
