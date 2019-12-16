@@ -64,6 +64,8 @@ html {
     transition-timing-function: ease-in-out;
 }
 
+
+
 /*Navbar*/
 .navbar {
     padding: 8px 15px 8px 15px;
@@ -301,16 +303,12 @@ html {
     text-align: center;
 }
 
-/*Login*/
-#login-container {
+/*FinalCTA*/
+#finalcta-container {
     background-color: #1d3461;
     padding: 50px 50px 50px 50px;
     margin-top: 0;
-}
-
-#login-heading {
-    color: #ef8a17;
-    margin: 10px 0px 10px 0px;
+    text-align: center;
 }
 
 /*Footer*/
