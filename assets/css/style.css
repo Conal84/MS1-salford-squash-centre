@@ -68,6 +68,16 @@ body {
     transition-timing-function: ease-in-out;
 }
 
+.btn-login {
+    background: #e5e5e5;
+    border: #e5e5e5;
+}
+
+.btn-login:hover {
+    background-color: #e5e5e5;
+    color: #1d3461;
+}
+
 /*Navbar*/
 .navbar {
     padding: 8px 15px 8px 15px;
