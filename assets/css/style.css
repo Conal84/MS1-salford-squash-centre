@@ -14,13 +14,11 @@ body {
 /*Headings*/
 .heading-h1 {
     font-size: 2rem;
-    margin-top: 40px;
     text-align: center;
 }
 
 .heading-h2 {
     font-size: 1.5rem;
-    margin-top: 40px;
     text-align: center;
 }
 
@@ -28,7 +26,6 @@ body {
     font-size: 1.12rem;
     font-weight: 700;
     letter-spacing: 2px;
-    margin-top: 15px;
 }
 
 /*Text colors*/
@@ -91,7 +88,7 @@ body {
 }
 
 .hero-col {
-    padding: 0;
+    padding: 0px;
     position: relative;
 }
 
@@ -114,7 +111,6 @@ body {
 #contact-container {
     background-color: #1d3461;
     padding: 50px 50px 50px 50px;
-    margin-top: 0px;
     text-align: center;
 }
 
@@ -127,13 +123,9 @@ body {
     text-decoration: none;
 }
 
-#contact-heading {
-    margin-top: 0px; /*possibly move this to heading section?*/
-}
-
 .contact-row ul {
     list-style: none;
-    padding: 0;
+    padding: 0px;
 }
 
 #contact-container i {
@@ -145,11 +137,6 @@ body {
 #quote-container {
     background-color: #e5e5e5;
     padding: 50px 50px 50px 50px;
-    margin-top: 0;
-}
-
-#quote-heading {
-    margin-top: 0px; /*Possibly remove this*/
 }
 
 .quote-row {
@@ -172,6 +159,7 @@ body {
 }
 
 .blockquote {
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: justify;
@@ -193,13 +181,11 @@ body {
 #facilities-container {
     background-color: #1d3461;
     padding: 50px 50px 50px 50px;
-    margin-top: 0;
     position: relative;
 }
 
 #facilities-heading {
     margin-bottom: 20px;
-    margin-top: 0px;
 }
 
 .facilities-subheading {
@@ -257,13 +243,11 @@ body {
     background-color: #e5e5e5;
     text-align: center;
     padding: 50px 50px 50px 50px;
-    margin-top: 0;
     position: relative;
 }
 
 #play-heading {
     margin-bottom: 20px;
-    margin-top: 0px;
 }
 
 .play-subheading {
@@ -277,7 +261,6 @@ body {
 }
 
 .fees-list li {
-    font-size: 1rem;
     text-align: center;
 }
 
@@ -285,7 +268,6 @@ body {
 #finalcta-container {
     background-color: #1d3461;
     padding: 50px 50px 50px 50px;
-    margin-top: 0;
     text-align: center;
 }
 
@@ -298,7 +280,6 @@ body {
 
 #social-links {
     text-align: center;
-    margin-bottom: 0;
 }
 
 #social-links li {
@@ -344,8 +325,8 @@ html {
 }
 
 #triangle-topright {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     border-top: 300px solid #e5e5e5;
     border-left: 300px solid transparent;
     position: absolute;
@@ -355,8 +336,8 @@ html {
 }
 
 #triangle-bottomleft {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     border-bottom: 300px solid #e5e5e5;
     border-right: 300px solid transparent;
     position: absolute;
@@ -389,8 +370,8 @@ html {
     bottom: 0px;
     left: 5px;
     z-index: 20;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 .jumbotron h2 {
@@ -425,7 +406,7 @@ html {
     align-items: center;
 }
 
-#gym-icon {
+#shop-icon {
     color: #ef8a17;
 }
 
@@ -461,8 +442,8 @@ html {
 }
 
 #triangle-topright {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     border-top: 400px solid #e5e5e5;
     border-left: 400px solid transparent;
     position: absolute;
@@ -471,8 +452,8 @@ html {
 }
 
 #triangle-bottomleft {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     border-bottom: 400px solid #e5e5e5;
     border-right: 400px solid transparent;
     position: absolute;
@@ -490,8 +471,8 @@ html {
     bottom: 20px;
     left: 15px;
     z-index: 20;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 .jumbotron h2 {
