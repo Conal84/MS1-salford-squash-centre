@@ -1,5 +1,4 @@
-# Salford Squash Centre  
-[View website in GitHub Pages](https://conal84.github.io/MS1-salford-squash-centre/)  
+<h1 align="center">Salford Squash Centre</h1>
 
 This website will meet the squash centre business needs
 of attracting more customers by raising awareness and providing an online presence 
@@ -87,10 +86,10 @@ Information will be grouped in 4 key areas;
 * Play - providing specific squash playing information
 * Sign In - a page where exisintg users can sign in
 
-### Skeleton
-[Balsamiq-wireframe-mobile](wireframes/Squash-Centre-wireframe-mobile.pdf)  
-[Balsamiq-wireframe-tablet](wireframes/Squash-Centre-wireframe-tablet.pdf)  
-[Balsamiq-wireframe-desktop](wireframes/Squash-Centre-wireframe-desktop.pdf)
+### Wireframes
+* [Wireframe-mobile](wireframes/Squash-Centre-wireframe-mobile.pdf)  
+* [Wireframe-tablet](wireframes/Squash-Centre-wireframe-tablet.pdf)  
+* [Wireframe-desktop](wireframes/Squash-Centre-wireframe-desktop.pdf)
 
 ### Surface
 I want the colors used on the site to mimic the colors of a professional squash court which are blue walls.
@@ -111,11 +110,13 @@ squash tips videos.
 ## Technologies used
 1. HTML
 2. CSS
-3. Bootstrap (4.3.1)
-4. Javascript
-5. Google Fonts
-6. AutoPrefixer
-7. W3C HTML & CSS code validators
+3. Javascript
+4. [Bootstrap](https://getbootstrap.com/)
+5. [Google Fonts](https://fonts.google.com/)
+6. [AutoPrefixer](https://autoprefixer.github.io/)
+7. [Font awesome](https://fontawesome.com/)
+8. [jQuery](https://jquery.com/)
+9. [Popper.js](https://popper.js.org/)
 
 ## Testing
 In each of the main sections; Home, Facilities, Play and Login the required information has been provided and is accessible
@@ -144,7 +145,7 @@ This project was developed using the GitPod IDE, version controlled by committin
 
 To deploy this page to GitHub pages from its specific [GitHub repository](https://github.com/Conal84/MS1-salford-squash-centre) the steps followed were;
 
-1. Log into GitHub
+1. Scroll to the top of this GitHub page
 2. In the Repositories list select **MS1-salford-squash-centre**
 3. From the menu select **Settings**
 4. Scroll down to the **GitHub Pages** section
@@ -156,12 +157,12 @@ To deploy this page to GitHub pages from its specific [GitHub repository](https:
 To clone this project from GitHub:
 
 1. Follow this link to the [Project GitHub repository.](https://github.com/Conal84/MS1-salford-squash-centre)
-2. Under the repository name, click "Clone or download".
-3. In the Clone with HTTPs section, copy the clone URL for the repository.
-4. In your local IDE open Git Bash.
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type git clone, and then paste the URL you copied in Step 3.
-7. Press Enter. Your local clone will be created
+2. Under the repository name, click **"Clone or download"**
+3. In the **Clone with HTTPs** section, **copy the clone URL** for the repository
+4. In your local IDE open the terminal
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. **Type git clone**, and then **paste the URL** you copied in Step 3
+7. Press **Enter**. Your local clone will be created
 
 ## Credits
 
