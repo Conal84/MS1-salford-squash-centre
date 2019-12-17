@@ -81,10 +81,10 @@ On larger tablet and desktop display infromation will be arranged in additional 
 On larger displays the facilties section has been arranged in a mosaic type grid to present content in a more interesting, eye catching way.
 
 Information will be grouped in 4 key areas;
-* About - providing general squash centre infromation to the user
-* Facilities - providing specific squash centre infromation
-* Play - providing specific squash playing information
-* Sign In - a page where exisintg users can sign in
+* **About** - providing general squash centre infromation to the user
+* **Facilities** - providing specific squash centre infromation
+* **Play** - providing specific squash playing information
+* **Sign In** - a page where exisintg users can sign in
 
 ### Wireframes
 * [Wireframe-mobile](wireframes/Squash-Centre-wireframe-mobile.pdf)  
