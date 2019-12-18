@@ -189,20 +189,20 @@ are also provided at multiple locations throughout the website. The image carous
 
 ### Quotations
 * Plan: To include quotations from squash centre staff which speak about the faciltiies and enhance the professional feel of the site while providing useful information to the user.
-* Implementation: Staff quotations have been included in the Bootstrap grid
+* Implementation: Staff quotations have been included in the Bootstrap grid.
 * Result: The quotation section can be easily read at all screen sizes and provide useful information and a professional squash centre feel.
-* Verdict: The test has passed
+* Verdict: The test has passed.
 
 ### Facilities
 * Plan: Provide the user with images and general information about the squash centre in an interesting way
 * Implementation: At smaller screen sizes the Bootstrap grid is used to present images and information to the user but at larger screen sizes
 I designed a mosaic tile pattern by ordering the tiles in different arrangements and then using media queries to target and style the text and background of the tiles.
-* Result: At large screen the infromation is provided in a mosaic tiled pattern which makes viewing and reading about the facilities a more interesting and eye catching experience as 
+* Result: At large screen the information is provided in a mosaic tiled pattern which makes viewing and reading about the facilities a more interesting and eye catching experience as 
 often reading about these aspects can be more mundane for the user.
-* Verdict: This section ahs passed the test.
+* Verdict: This section has passed the test.
 
 ### Forms
-* Plan: Provide users log in and sign up information in a easy to use, clutter free manner
+* Plan: Provide users log in and sign up information in a easy to use, clutter free manner.
 * Implementation: Originally only the Sign Up section was in a button and modal format and the log in section was at the bottom of the web page but after some user feedback this was changed
 to have both the log in and sign up features in button modal formats to improve the user experience.
 * Result: Both Log In and Sign Up buttons are available to the user on the navigation bar and at the bottom of the web page. The Sign up button is also
@@ -212,7 +212,7 @@ included in the jumbotron at larger screen sizes for an added call to action.
 ### Social media
 * Plan: Include social media links for the squash court to improve the user experience and to make this infromation easily available.
 This also increases the professional sense of the squash centre.
-* Implementation: Social media links have been added to the footer of the site
+* Implementation: Social media links have been added to the footer of the site.
 * Result: The links stand out on the footer and change color when the user hovers over them.
 * Verdict: This element of the website has passed this test.
 
