@@ -14,12 +14,16 @@ visit to the centre as smooth as possible.
 
 ## UX
 ### User Stories
-As a I want to access squash centre information relating to a first time visit to the centre.
-This includes centre location, parking, court and changing room facilities and how to become a member.
-As a user I would like to see images of the court, changing room and other facilities.
-As a user I want easy access to sign up and log in buttons and I want to be qucikly taken to other main page areas 
-of facilties, play and back to the home location. As a user when I click the Log In or Sign Up buttons I would like to 
-be presented with the relevant user entry infromation in a concise and simple way.
+As a user I want to access squash centre information relating to a first time visit to the centre.
+This includes centre location, parking, court and changing room facilities and how to become a member.  
+
+As a user I would like to see images of the court, changing room and other facilities.  
+
+As a user I want easy access to sign up and log in buttons and I want to be quickly taken to other main page areas 
+of facilties, play and back to the home location.  
+
+As a user when I click the Log In or Sign Up buttons I would like to 
+be presented with the relevant user entry information in a concise and simple way.
 
 As an existing member I want to be able to access the log in area where future functionality could
 provide information on squash centre timetable, training sessions and court bookings easily so I can effortlessly use the court facilities.
@@ -45,6 +49,7 @@ Website key features include the following;
     * Header Logo which also acts as a Home button  
     * Navigation items with links which scroll to related webpage content  
     * Hamburger icon which contains dropdown navigation items at screen sizes smaller than large
+    * Log In and Sign Up buttons leading to modals where the user can enter information
 
 * Home Section - provides general squash centre information
     * Images carousel of squash players  
@@ -64,8 +69,9 @@ Website key features include the following;
     * Fees
     * Training
 
-* Sign In Section - allows existing members to sign in
-    * Existing members can sign in here
+* Log In / Sign Up Section
+    * Existing members can log in here
+    * New members can sign up here
 
 The site quotation section with information from the squash centre
 coaches aims to provide a link between the coaches and potential
@@ -86,7 +92,7 @@ Information will be grouped in 4 key areas;
 * **About** - providing general squash centre infromation to the user
 * **Facilities** - providing specific squash centre infromation
 * **Play** - providing specific squash playing information
-* **Sign In** - a page where exisintg users can sign in
+* **Log In / Sign Up** - an area where exisintg users can log in or new members can sign up
 
 ### Wireframes
 * [Wireframe-mobile](wireframes/Squash-Centre-wireframe-mobile.pdf)  
@@ -95,11 +101,11 @@ Information will be grouped in 4 key areas;
 
 ### Surface
 I want the colors used on the site to mimic the colors of a professional squash court which are blue walls.
-The color scheme of the site match the images of professional courts and players.
+The color scheme of the site matches the images of professional courts and players.
 Additional colors have been chosen by using a palette produced on the coolors.co website.  
 [Coolors-palette](wireframes/palette.pdf)  
 
-During the design process it was found the the red color originally planned for call to action buttons in the wireframes were too dominant and prevalent.
+During the design process it was found the the red color originally planned for call to action buttons in the wireframes was too dominant and prevalent.
 Alternatively a slightly softer orange color proposed by the coolors.co website was used.
 
 I have used Lato font throughout the website as it has a simplistic style. 
@@ -127,7 +133,7 @@ squash tips videos.
 9. [Popper.js](https://popper.js.org/)
 
 ## Testing
-Testing involved viewing the website myself on a range of devices both in Chrome Dev tools and on physical Iphone and tablet and desktop devices.
+Testing involved viewing the website myself on a range of devices both in Chrome Dev tools and on physical Iphone, tablet and desktop devices.
 As part of the testing procedure my peers reviewed the website and provided constructive comments.
 
 In each of the main sections; Home, Facilities, Play, Login and SignUp the required information has been provided and is accessible
@@ -140,7 +146,7 @@ The functionality of these media queries has been tested across all devices usin
 
 The funtionality of Sign Up and Log In buttons has been tested by inputting incorrect and correct information into the required 
 fields. The user cannot submit the Sign Up form without a first name, last name, email address in the correct format and a drop down select.
-The user also cannot submit the Log In form without a username and a password. In the Get In Touch section the Google Maps link and the mailto link have also been tested. Social media links in the footer
+The user also cannot submit the Log In form without a username and a password. In the Get In Touch section the Google Maps link, the mailto link and the telephone link have also been tested. Social media links in the footer
 have also been tested to ensure they take the user to the correct website. The naviagtion bar link items have been tested to ensure that when pressed the webpage scrolls to the correct content section.
 
 The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC) using Chrome Dev tools. The responsive design was also physically tested on personal Iphone, IPad, desktop and widescreen monitor devices.
